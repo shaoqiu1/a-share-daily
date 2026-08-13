@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """A-share trading day helpers using exchange_calendars."""
-from datetime import datetime, date, timedelta
+from datetime import datetime, date, timedelta, timezone
 import exchange_calendars as ecals
+
+
+def _beijing_now():
+    return datetime.now(timezone(timedelta(hours=8)))
 
 _XSHG = None
 
@@ -24,12 +28,12 @@ def is_trading_day(d: str | date) -> bool:
 
 
 def latest_trading_date(d: date = None) -> str:
-    """Return the most recent trading date up to and including d (default today)."""
+    """Return the most recent trading date up to and including d (default today in Beijing time)."""
     cal = _calendar()
-    d = d or date.today()
-    # if today is a trading day and after market close (15:00), use today; else previous session
-    now = datetime.now()
-    if d == date.today() and now.hour < 15:
+    now = _beijing_now()
+    d = d or now.date()
+    # if today is a trading day and after market close (15:00 Beijing), use today; else previous session
+    if d == now.date() and now.hour < 15:
         d = d - timedelta(days=1)
     sessions = cal.sessions_in_range(
         (d - timedelta(days=60)).strftime("%Y-%m-%d"),
@@ -59,8 +63,8 @@ def next_trading_date(d: str | date = None) -> str:
 
 
 def main():
-    today = date.today().isoformat()
-    print(f"Today: {today}")
+    today = _beijing_now().date().isoformat()
+    print(f"Today (Beijing): {today}")
     print(f"Is trading day: {is_trading_day(today)}")
     print(f"Latest trading date: {latest_trading_date()}")
 
