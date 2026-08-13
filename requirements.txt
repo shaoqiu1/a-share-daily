@@ -1,0 +1,4 @@
+requests>=2.31.0
+pandas>=2.0.0
+stockstats>=0.5.3
+exchange-calendars>=4.5
