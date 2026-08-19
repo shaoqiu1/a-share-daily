@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-08-18",
-  "stock_count": 72,
-  "total_net_buy_wan": 244436.7,
-  "top_theme": "粮食概念",
-  "top_theme_count": 13,
-  "top_industry": "种植业",
-  "top_industry_pct": 11.83,
-  "html_path": "市场情绪日报_20260818.html",
-  "html_filename": "市场情绪日报_20260818.html"
+  "trade_date": "2026-08-19",
+  "stock_count": 74,
+  "total_net_buy_wan": -329571.6,
+  "top_theme": "创新药",
+  "top_theme_count": 4,
+  "top_industry": "焦炭Ⅱ",
+  "top_industry_pct": 6.53,
+  "html_path": "市场情绪日报_20260819.html",
+  "html_filename": "市场情绪日报_20260819.html"
 }
