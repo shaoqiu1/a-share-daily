@@ -1,1313 +1,1674 @@
 {
-  "trade_date": "2026-08-19",
+  "trade_date": "2026-08-20",
   "dragon_tiger": {
-    "date": "2026-08-19",
-    "total_records": 83,
+    "date": "2026-08-20",
+    "total_records": 78,
     "stocks": [
       {
-        "code": "600783",
-        "name": "鲁信创投",
-        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
-        "close": 20.19,
-        "change_pct": 10.03,
-        "net_buy_wan": 14077.5,
-        "buy_wan": 22238.9,
-        "sell_wan": 8161.4,
-        "turnover_pct": 5.97
-      },
-      {
-        "code": "601011",
-        "name": "宝泰隆",
-        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
-        "close": 3.04,
-        "change_pct": 10.14,
-        "net_buy_wan": 13509.1,
-        "buy_wan": 15976.3,
-        "sell_wan": 2467.1,
-        "turnover_pct": 3.8
-      },
-      {
-        "code": "601011",
-        "name": "宝泰隆",
-        "reason": "单只标的证券的当日融资买入数量达到当日该证券总交易量的50％以上",
-        "close": 3.04,
-        "change_pct": 10.14,
-        "net_buy_wan": 13488.2,
-        "buy_wan": 13488.2,
-        "sell_wan": 0.0,
-        "turnover_pct": 3.8
-      },
-      {
-        "code": "603580",
-        "name": "艾艾精工",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 67.99,
-        "change_pct": 6.2,
-        "net_buy_wan": 9604.6,
-        "buy_wan": 36217.6,
-        "sell_wan": 26613.0,
-        "turnover_pct": 14.4
-      },
-      {
-        "code": "301211",
-        "name": "亨迪药业",
-        "reason": "日涨幅达到15%的前5只证券",
-        "close": 14.54,
-        "change_pct": 19.97,
-        "net_buy_wan": 9162.3,
-        "buy_wan": 16304.3,
-        "sell_wan": 7142.0,
-        "turnover_pct": 13.69
-      },
-      {
-        "code": "600172",
-        "name": "黄河旋风",
-        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
-        "close": 14.42,
-        "change_pct": 0.7,
-        "net_buy_wan": 7726.2,
-        "buy_wan": 43273.7,
-        "sell_wan": 35547.6,
-        "turnover_pct": 25.31
-      },
-      {
-        "code": "600313",
-        "name": "农发种业",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 7.13,
-        "change_pct": 5.16,
-        "net_buy_wan": 7472.6,
-        "buy_wan": 27270.5,
-        "sell_wan": 19797.9,
-        "turnover_pct": 21.11
-      },
-      {
-        "code": "000723",
-        "name": "美锦能源",
+        "code": "002437",
+        "name": "誉衡药业",
         "reason": "日涨幅偏离值达到7%的前5只证券",
-        "close": 3.89,
-        "change_pct": 9.89,
-        "net_buy_wan": 4844.3,
-        "buy_wan": 12626.1,
-        "sell_wan": 7781.8,
-        "turnover_pct": 4.23
+        "close": 4.73,
+        "change_pct": 10.0,
+        "net_buy_wan": 43087.0,
+        "buy_wan": 61212.6,
+        "sell_wan": 18125.6,
+        "turnover_pct": 22.96
       },
       {
-        "code": "300503",
-        "name": "昊志机电",
-        "reason": "日跌幅达到15%的前5只证券",
-        "close": 69.55,
-        "change_pct": -15.18,
-        "net_buy_wan": 4815.1,
-        "buy_wan": 24629.6,
-        "sell_wan": 19814.5,
-        "turnover_pct": 13.21
+        "code": "688617",
+        "name": "惠泰医疗",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 266.22,
+        "change_pct": 16.51,
+        "net_buy_wan": 34848.8,
+        "buy_wan": 84593.2,
+        "sell_wan": 49744.4,
+        "turnover_pct": 3.45
       },
       {
-        "code": "000505",
-        "name": "京粮控股",
+        "code": "002491",
+        "name": "通鼎互联",
         "reason": "日涨幅偏离值达到7%的前5只证券",
-        "close": 7.47,
-        "change_pct": 10.01,
-        "net_buy_wan": 4779.2,
-        "buy_wan": 10663.9,
-        "sell_wan": 5884.7,
-        "turnover_pct": 10.74
+        "close": 19.27,
+        "change_pct": 9.99,
+        "net_buy_wan": 34561.6,
+        "buy_wan": 63821.5,
+        "sell_wan": 29259.9,
+        "turnover_pct": 19.1
       },
       {
-        "code": "123280",
-        "name": "三鑫转债",
-        "reason": "上市首日可转债",
-        "close": 157.3,
-        "change_pct": 57.3,
-        "net_buy_wan": 4758.5,
-        "buy_wan": 5485.7,
-        "sell_wan": 727.2,
-        "turnover_pct": 0.0
-      },
-      {
-        "code": "301130",
-        "name": "西点药业",
+        "code": "300009",
+        "name": "安科生物",
         "reason": "日涨幅达到15%的前5只证券",
-        "close": 33.38,
-        "change_pct": 19.99,
-        "net_buy_wan": 4664.3,
-        "buy_wan": 10206.0,
-        "sell_wan": 5541.6,
-        "turnover_pct": 28.16
-      },
-      {
-        "code": "601015",
-        "name": "陕西黑猫",
-        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
-        "close": 3.71,
-        "change_pct": 10.09,
-        "net_buy_wan": 4600.7,
-        "buy_wan": 11942.2,
-        "sell_wan": 7341.5,
-        "turnover_pct": 7.68
-      },
-      {
-        "code": "300911",
-        "name": "亿田智能",
-        "reason": "日涨幅达到15%的前5只证券",
-        "close": 26.66,
+        "close": 10.15,
         "change_pct": 19.98,
-        "net_buy_wan": 4196.7,
-        "buy_wan": 11161.4,
-        "sell_wan": 6964.7,
-        "turnover_pct": 19.35
+        "net_buy_wan": 31794.8,
+        "buy_wan": 46279.4,
+        "sell_wan": 14484.6,
+        "turnover_pct": 16.32
       },
       {
-        "code": "118075",
-        "name": "N奥普转",
-        "reason": "向不特定对象发行的可转债上市首日交易公开信息",
-        "close": 157.3,
-        "change_pct": 57.3,
-        "net_buy_wan": 4152.5,
-        "buy_wan": 4772.6,
-        "sell_wan": 620.1,
-        "turnover_pct": 0.0
-      },
-      {
-        "code": "603113",
-        "name": "金能科技",
-        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
-        "close": 5.15,
-        "change_pct": 10.04,
-        "net_buy_wan": 3566.4,
-        "buy_wan": 5945.7,
-        "sell_wan": 2379.4,
-        "turnover_pct": 4.47
-      },
-      {
-        "code": "600683",
-        "name": "京投发展",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
-        "close": 9.68,
-        "change_pct": -10.04,
-        "net_buy_wan": 2983.9,
-        "buy_wan": 8501.2,
-        "sell_wan": 5517.3,
-        "turnover_pct": 7.04
-      },
-      {
-        "code": "300069",
-        "name": "金利华电",
-        "reason": "日涨幅达到15%的前5只证券",
-        "close": 34.66,
-        "change_pct": 20.01,
-        "net_buy_wan": 2694.5,
-        "buy_wan": 12913.4,
-        "sell_wan": 10218.9,
-        "turnover_pct": 16.51
-      },
-      {
-        "code": "002953",
-        "name": "日丰股份",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 11.73,
-        "change_pct": 10.04,
-        "net_buy_wan": 2576.5,
-        "buy_wan": 9406.1,
-        "sell_wan": 6829.7,
-        "turnover_pct": 8.33
-      },
-      {
-        "code": "603801",
-        "name": "志邦家居",
-        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
-        "close": 6.57,
-        "change_pct": 10.05,
-        "net_buy_wan": 2464.7,
-        "buy_wan": 3737.2,
-        "sell_wan": 1272.5,
-        "turnover_pct": 3.12
-      },
-      {
-        "code": "000505",
-        "name": "京粮控股",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 7.47,
+        "code": "002552",
+        "name": "宝鼎科技",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 57.04,
         "change_pct": 10.01,
-        "net_buy_wan": 2455.5,
-        "buy_wan": 12969.7,
-        "sell_wan": 10514.2,
-        "turnover_pct": 10.74
+        "net_buy_wan": 27022.1,
+        "buy_wan": 42828.4,
+        "sell_wan": 15806.2,
+        "turnover_pct": 10.45
+      },
+      {
+        "code": "300601",
+        "name": "康泰生物",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 14.47,
+        "change_pct": 19.98,
+        "net_buy_wan": 14006.3,
+        "buy_wan": 26221.1,
+        "sell_wan": 12214.8,
+        "turnover_pct": 11.36
       },
       {
         "code": "600613",
         "name": "神奇制药",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 7.78,
-        "change_pct": 0.26,
-        "net_buy_wan": 2428.2,
-        "buy_wan": 16024.7,
-        "sell_wan": 13596.4,
-        "turnover_pct": 33.91
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 8.56,
+        "change_pct": 10.03,
+        "net_buy_wan": 13402.3,
+        "buy_wan": 20436.7,
+        "sell_wan": 7034.4,
+        "turnover_pct": 12.55
       },
       {
-        "code": "001301",
-        "name": "尚太科技",
+        "code": "300363",
+        "name": "博腾股份",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 24.48,
+        "change_pct": 20.0,
+        "net_buy_wan": 13035.8,
+        "buy_wan": 33903.8,
+        "sell_wan": 20868.0,
+        "turnover_pct": 11.01
+      },
+      {
+        "code": "002172",
+        "name": "澳洋健康",
         "reason": "日涨幅偏离值达到7%的前5只证券",
-        "close": 62.33,
-        "change_pct": 10.01,
-        "net_buy_wan": 1571.4,
-        "buy_wan": 25072.6,
-        "sell_wan": 23501.2,
-        "turnover_pct": 6.24
+        "close": 4.44,
+        "change_pct": 9.9,
+        "net_buy_wan": 12905.5,
+        "buy_wan": 18302.6,
+        "sell_wan": 5397.1,
+        "turnover_pct": 26.36
       },
       {
-        "code": "600354",
-        "name": "敦煌种业",
-        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
-        "close": 6.85,
-        "change_pct": -2.0,
-        "net_buy_wan": 628.3,
-        "buy_wan": 7299.1,
-        "sell_wan": 6670.8,
-        "turnover_pct": 29.56
+        "code": "002172",
+        "name": "澳洋健康",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 4.44,
+        "change_pct": 9.9,
+        "net_buy_wan": 12905.5,
+        "buy_wan": 18302.6,
+        "sell_wan": 5397.1,
+        "turnover_pct": 26.36
       },
       {
-        "code": "300970",
-        "name": "华绿生物",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
-        "close": 22.53,
-        "change_pct": 4.02,
-        "net_buy_wan": 525.4,
-        "buy_wan": 15112.8,
-        "sell_wan": 14587.4,
-        "turnover_pct": 31.42
+        "code": "002172",
+        "name": "澳洋健康",
+        "reason": "日换手率达到20%的前5只证券",
+        "close": 4.44,
+        "change_pct": 9.9,
+        "net_buy_wan": 12905.5,
+        "buy_wan": 18302.6,
+        "sell_wan": 5397.1,
+        "turnover_pct": 26.36
       },
       {
-        "code": "001400",
-        "name": "江顺科技",
-        "reason": "日涨幅偏离值达到7%的前5只证券",
-        "close": 85.94,
-        "change_pct": 10.0,
-        "net_buy_wan": 406.4,
-        "buy_wan": 13274.6,
-        "sell_wan": 12868.3,
-        "turnover_pct": 13.55
+        "code": "300109",
+        "name": "新开源",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 15.98,
+        "change_pct": 19.97,
+        "net_buy_wan": 11928.6,
+        "buy_wan": 26159.3,
+        "sell_wan": 14230.7,
+        "turnover_pct": 16.78
+      },
+      {
+        "code": "688433",
+        "name": "华曙高科",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 103.25,
+        "change_pct": 20.0,
+        "net_buy_wan": 9790.9,
+        "buy_wan": 23175.9,
+        "sell_wan": 13385.1,
+        "turnover_pct": 2.64
+      },
+      {
+        "code": "688114",
+        "name": "华大智造",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 69.11,
+        "change_pct": 20.0,
+        "net_buy_wan": 9243.6,
+        "buy_wan": 16239.3,
+        "sell_wan": 6995.7,
+        "turnover_pct": 1.66
+      },
+      {
+        "code": "301655",
+        "name": "绿控传动",
+        "reason": "无价格涨跌幅限制的证券",
+        "close": 32.49,
+        "change_pct": 282.24,
+        "net_buy_wan": 9080.6,
+        "buy_wan": 11169.8,
+        "sell_wan": 2089.2,
+        "turnover_pct": 78.98
+      },
+      {
+        "code": "688185",
+        "name": "康希诺",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 64.43,
+        "change_pct": 20.0,
+        "net_buy_wan": 9048.5,
+        "buy_wan": 16487.8,
+        "sell_wan": 7439.3,
+        "turnover_pct": 2.88
+      },
+      {
+        "code": "000523",
+        "name": "红棉股份",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 3.53,
+        "change_pct": 9.97,
+        "net_buy_wan": 8418.6,
+        "buy_wan": 20812.3,
+        "sell_wan": 12393.8,
+        "turnover_pct": 15.01
+      },
+      {
+        "code": "002412",
+        "name": "汉森制药",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 9.26,
+        "change_pct": 9.98,
+        "net_buy_wan": 8092.4,
+        "buy_wan": 11527.0,
+        "sell_wan": 3434.5,
+        "turnover_pct": 0.87
+      },
+      {
+        "code": "600649",
+        "name": "城投控股",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 4.16,
+        "change_pct": 10.05,
+        "net_buy_wan": 8045.3,
+        "buy_wan": 13841.8,
+        "sell_wan": 5796.5,
+        "turnover_pct": 5.22
+      },
+      {
+        "code": "000523",
+        "name": "红棉股份",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 3.53,
+        "change_pct": 9.97,
+        "net_buy_wan": 6363.6,
+        "buy_wan": 14181.8,
+        "sell_wan": 7818.2,
+        "turnover_pct": 15.01
+      },
+      {
+        "code": "600539",
+        "name": "狮头股份",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 15.36,
+        "change_pct": 10.03,
+        "net_buy_wan": 5342.5,
+        "buy_wan": 8870.5,
+        "sell_wan": 3528.1,
+        "turnover_pct": 12.49
       },
       {
         "code": "600127",
         "name": "金健米业",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 7.82,
-        "change_pct": 9.99,
-        "net_buy_wan": 250.2,
-        "buy_wan": 7573.3,
-        "sell_wan": 7323.1,
-        "turnover_pct": 4.56
-      },
-      {
-        "code": "300718",
-        "name": "长盛轴承",
-        "reason": "日跌幅达到15%的前5只证券",
-        "close": 60.56,
-        "change_pct": -16.06,
-        "net_buy_wan": 200.6,
-        "buy_wan": 8134.9,
-        "sell_wan": 7934.2,
-        "turnover_pct": 9.1
-      },
-      {
-        "code": "605598",
-        "name": "上海港湾",
-        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
-        "close": 26.03,
-        "change_pct": -9.99,
-        "net_buy_wan": 55.1,
-        "buy_wan": 5016.8,
-        "sell_wan": 4961.7,
-        "turnover_pct": 2.97
-      },
-      {
-        "code": "920193",
-        "name": "吉和昌",
-        "reason": "当日换手率达到20%的前5只股票",
-        "close": 33.78,
-        "change_pct": -1.66,
-        "net_buy_wan": 49.0,
-        "buy_wan": 2541.8,
-        "sell_wan": 2492.8,
-        "turnover_pct": 24.87
-      },
-      {
-        "code": "920107",
-        "name": "恒兴股份",
-        "reason": "当日换手率达到20%的前5只股票",
-        "close": 22.14,
-        "change_pct": -8.02,
-        "net_buy_wan": -2.9,
-        "buy_wan": 1469.2,
-        "sell_wan": 1472.1,
-        "turnover_pct": 35.07
-      },
-      {
-        "code": "000526",
-        "name": "学大教育",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 39.09,
-        "change_pct": 9.99,
-        "net_buy_wan": -37.8,
-        "buy_wan": 11452.2,
-        "sell_wan": 11490.0,
-        "turnover_pct": 7.7
-      },
-      {
-        "code": "301516",
-        "name": "中远通",
-        "reason": "日换手率达到30%的前5只证券",
-        "close": 23.31,
-        "change_pct": 3.6,
-        "net_buy_wan": -153.8,
-        "buy_wan": 15193.3,
-        "sell_wan": 15347.0,
-        "turnover_pct": 44.27
-      },
-      {
-        "code": "002041",
-        "name": "登海种业",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 9.9,
-        "change_pct": 1.02,
-        "net_buy_wan": -376.0,
-        "buy_wan": 15872.6,
-        "sell_wan": 16248.6,
-        "turnover_pct": 10.62
-      },
-      {
-        "code": "000020",
-        "name": "深华发A",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 13.74,
-        "change_pct": 10.01,
-        "net_buy_wan": -435.4,
-        "buy_wan": 5569.2,
-        "sell_wan": 6004.5,
-        "turnover_pct": 10.56
-      },
-      {
-        "code": "600613",
-        "name": "神奇制药",
         "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
-        "close": 7.78,
-        "change_pct": 0.26,
-        "net_buy_wan": -698.2,
-        "buy_wan": 7471.8,
-        "sell_wan": 8170.0,
-        "turnover_pct": 33.91
+        "close": 8.6,
+        "change_pct": 9.97,
+        "net_buy_wan": 5333.4,
+        "buy_wan": 19155.5,
+        "sell_wan": 13822.0,
+        "turnover_pct": 43.41
       },
       {
-        "code": "600721",
-        "name": "百花医药",
-        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
-        "close": 13.72,
-        "change_pct": 1.63,
-        "net_buy_wan": -720.8,
-        "buy_wan": 10849.9,
-        "sell_wan": 11570.7,
-        "turnover_pct": 31.89
-      },
-      {
-        "code": "600272",
-        "name": "开开实业",
-        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
-        "close": 19.5,
-        "change_pct": -6.83,
-        "net_buy_wan": -794.5,
-        "buy_wan": 8638.0,
-        "sell_wan": 9432.5,
-        "turnover_pct": 30.67
-      },
-      {
-        "code": "920088",
-        "name": "科力股份",
-        "reason": "当日换手率达到20%的前5只股票",
-        "close": 47.07,
-        "change_pct": 2.42,
-        "net_buy_wan": -910.0,
-        "buy_wan": 2870.8,
-        "sell_wan": 3780.7,
-        "turnover_pct": 24.57
-      },
-      {
-        "code": "600165",
-        "name": "ST宁科",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 3.05,
-        "change_pct": 3.74,
-        "net_buy_wan": -1043.4,
-        "buy_wan": 1678.6,
-        "sell_wan": 2722.0,
-        "turnover_pct": 6.87
-      },
-      {
-        "code": "920176",
-        "name": "维琪科技",
-        "reason": "当日换手率达到20%的前5只股票",
-        "close": 55.35,
-        "change_pct": -11.93,
-        "net_buy_wan": -1160.7,
-        "buy_wan": 2153.5,
-        "sell_wan": 3314.3,
-        "turnover_pct": 28.21
-      },
-      {
-        "code": "603790",
-        "name": "雅运股份",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
-        "close": 24,
-        "change_pct": -10.01,
-        "net_buy_wan": -1418.1,
-        "buy_wan": 2945.5,
-        "sell_wan": 4363.6,
-        "turnover_pct": 3.53
-      },
-      {
-        "code": "920083",
-        "name": "金戈新材",
-        "reason": "当日换手率达到20%的前5只股票",
-        "close": 42.02,
-        "change_pct": 7.88,
-        "net_buy_wan": -1459.2,
-        "buy_wan": 5275.2,
-        "sell_wan": 6734.4,
-        "turnover_pct": 27.26
-      },
-      {
-        "code": "301295",
-        "name": "美硕科技",
-        "reason": "日跌幅达到15%的前5只证券",
-        "close": 39.26,
-        "change_pct": -15.24,
-        "net_buy_wan": -1503.4,
-        "buy_wan": 2973.3,
-        "sell_wan": 4476.7,
-        "turnover_pct": 16.3
-      },
-      {
-        "code": "603395",
-        "name": "红四方",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 29,
-        "change_pct": 10.02,
-        "net_buy_wan": -1707.9,
-        "buy_wan": 6909.5,
-        "sell_wan": 8617.4,
-        "turnover_pct": 18.11
-      },
-      {
-        "code": "603137",
-        "name": "恒尚节能",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
-        "close": 24.09,
-        "change_pct": -10.01,
-        "net_buy_wan": -2141.6,
-        "buy_wan": 4207.6,
-        "sell_wan": 6349.2,
-        "turnover_pct": 9.44
-      },
-      {
-        "code": "301529",
-        "name": "福赛科技",
-        "reason": "日跌幅达到15%的前5只证券",
-        "close": 88.01,
-        "change_pct": -16.18,
-        "net_buy_wan": -2312.5,
-        "buy_wan": 12559.4,
-        "sell_wan": 14871.8,
-        "turnover_pct": 9.37
-      },
-      {
-        "code": "301520",
-        "name": "万邦医药",
-        "reason": "日换手率达到30%的前5只证券",
-        "close": 77.16,
-        "change_pct": 4.47,
-        "net_buy_wan": -2344.4,
-        "buy_wan": 4723.8,
-        "sell_wan": 7068.2,
-        "turnover_pct": 42.58
-      },
-      {
-        "code": "600371",
-        "name": "万向德农",
-        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
-        "close": 8.95,
-        "change_pct": 9.95,
-        "net_buy_wan": -2428.9,
-        "buy_wan": 3899.6,
-        "sell_wan": 6328.5,
-        "turnover_pct": 18.17
-      },
-      {
-        "code": "001260",
-        "name": "坤泰股份",
-        "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券",
-        "close": 17.74,
-        "change_pct": -9.99,
-        "net_buy_wan": -2480.6,
-        "buy_wan": 5591.9,
-        "sell_wan": 8072.5,
-        "turnover_pct": 5.81
-      },
-      {
-        "code": "003032",
-        "name": "传智教育",
-        "reason": "日换手率达到20%的前5只证券",
-        "close": 13.28,
-        "change_pct": 1.07,
-        "net_buy_wan": -2532.8,
-        "buy_wan": 6438.8,
-        "sell_wan": 8971.6,
-        "turnover_pct": 28.9
-      },
-      {
-        "code": "603319",
-        "name": "美湖股份",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
-        "close": 25.79,
-        "change_pct": -10.01,
-        "net_buy_wan": -3797.0,
-        "buy_wan": 8556.9,
-        "sell_wan": 12353.9,
-        "turnover_pct": 4.72
-      },
-      {
-        "code": "603608",
-        "name": "天创时尚",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
-        "close": 18.32,
-        "change_pct": -10.02,
-        "net_buy_wan": -3980.4,
-        "buy_wan": 5385.8,
-        "sell_wan": 9366.1,
-        "turnover_pct": 4.11
-      },
-      {
-        "code": "300598",
-        "name": "诚迈科技",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
-        "close": 35.55,
-        "change_pct": 2.75,
-        "net_buy_wan": -4026.9,
-        "buy_wan": 30352.2,
-        "sell_wan": 34379.1,
-        "turnover_pct": 18.38
-      },
-      {
-        "code": "688152",
-        "name": "麒麟信安",
-        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
-        "close": 37.93,
-        "change_pct": 8.43,
-        "net_buy_wan": -4408.7,
-        "buy_wan": 4803.4,
-        "sell_wan": 9212.1,
-        "turnover_pct": 12.98
-      },
-      {
-        "code": "000560",
-        "name": "我爱我家",
+        "code": "002365",
+        "name": "永安药业",
         "reason": "日涨幅偏离值达到7%的前5只证券",
-        "close": 2.38,
-        "change_pct": 10.19,
-        "net_buy_wan": -4430.7,
-        "buy_wan": 15882.9,
-        "sell_wan": 20313.6,
-        "turnover_pct": 18.33
-      },
-      {
-        "code": "301106",
-        "name": "骏成科技",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
-        "close": 25.42,
-        "change_pct": 20.02,
-        "net_buy_wan": -4445.7,
-        "buy_wan": 5186.9,
-        "sell_wan": 9632.6,
-        "turnover_pct": 15.91
-      },
-      {
-        "code": "688218",
-        "name": "江苏北人",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
-        "close": 39.08,
-        "change_pct": -17.29,
-        "net_buy_wan": -5650.5,
-        "buy_wan": 7863.2,
-        "sell_wan": 13513.7,
-        "turnover_pct": 8.12
-      },
-      {
-        "code": "603407",
-        "name": "长裕集团",
-        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
-        "close": 66.96,
-        "change_pct": -1.38,
-        "net_buy_wan": -5814.2,
-        "buy_wan": 9861.1,
-        "sell_wan": 15675.3,
-        "turnover_pct": 36.47
-      },
-      {
-        "code": "300243",
-        "name": "瑞丰高材",
-        "reason": "日换手率达到30%的前5只证券",
-        "close": 18.81,
-        "change_pct": -2.94,
-        "net_buy_wan": -5927.5,
-        "buy_wan": 21096.4,
-        "sell_wan": 27023.9,
-        "turnover_pct": 34.2
-      },
-      {
-        "code": "301106",
-        "name": "骏成科技",
-        "reason": "日涨幅达到15%的前5只证券",
-        "close": 25.42,
-        "change_pct": 20.02,
-        "net_buy_wan": -6659.1,
-        "buy_wan": 2223.0,
-        "sell_wan": 8882.0,
-        "turnover_pct": 15.91
-      },
-      {
-        "code": "688828",
-        "name": "国仪公司",
-        "reason": "有价格涨跌幅限制的日换手率达到30%的前五只证券",
-        "close": 79.42,
-        "change_pct": -18.21,
-        "net_buy_wan": -7233.1,
-        "buy_wan": 6015.4,
-        "sell_wan": 13248.6,
-        "turnover_pct": 30.43
-      },
-      {
-        "code": "688828",
-        "name": "国仪公司",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
-        "close": 79.42,
-        "change_pct": -18.21,
-        "net_buy_wan": -7233.1,
-        "buy_wan": 6015.4,
-        "sell_wan": 13248.6,
-        "turnover_pct": 30.43
-      },
-      {
-        "code": "603958",
-        "name": "哈森股份",
-        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
-        "close": 16.98,
-        "change_pct": -8.02,
-        "net_buy_wan": -7274.9,
-        "buy_wan": 4595.6,
-        "sell_wan": 11870.5,
-        "turnover_pct": 14.06
-      },
-      {
-        "code": "603887",
-        "name": "城地香江",
-        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券",
-        "close": 9.3,
-        "change_pct": -9.97,
-        "net_buy_wan": -9669.4,
-        "buy_wan": 16064.9,
-        "sell_wan": 25734.3,
-        "turnover_pct": 8.97
-      },
-      {
-        "code": "002346",
-        "name": "柘中股份",
-        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
-        "close": 26.3,
-        "change_pct": 0.77,
-        "net_buy_wan": -10213.2,
-        "buy_wan": 36375.6,
-        "sell_wan": 46588.8,
-        "turnover_pct": 3.92
+        "close": 15.76,
+        "change_pct": 9.98,
+        "net_buy_wan": 4957.7,
+        "buy_wan": 16241.9,
+        "sell_wan": 11284.3,
+        "turnover_pct": 29.81
       },
       {
         "code": "002365",
         "name": "永安药业",
         "reason": "日换手率达到20%的前5只证券",
-        "close": 14.33,
-        "change_pct": -7.85,
-        "net_buy_wan": -11176.0,
-        "buy_wan": 11560.6,
-        "sell_wan": 22736.5,
-        "turnover_pct": 23.83
+        "close": 15.76,
+        "change_pct": 9.98,
+        "net_buy_wan": 4957.7,
+        "buy_wan": 16241.9,
+        "sell_wan": 11284.3,
+        "turnover_pct": 29.81
+      },
+      {
+        "code": "688276",
+        "name": "百克生物",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 18.71,
+        "change_pct": 20.01,
+        "net_buy_wan": 4200.4,
+        "buy_wan": 7308.6,
+        "sell_wan": 3108.2,
+        "turnover_pct": 1.57
+      },
+      {
+        "code": "688137",
+        "name": "近岸蛋白",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 67.49,
+        "change_pct": 20.0,
+        "net_buy_wan": 3873.9,
+        "buy_wan": 5162.4,
+        "sell_wan": 1288.5,
+        "turnover_pct": 3.31
+      },
+      {
+        "code": "300765",
+        "name": "石药创新",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 51.78,
+        "change_pct": 20.0,
+        "net_buy_wan": 3836.9,
+        "buy_wan": 55469.9,
+        "sell_wan": 51633.1,
+        "turnover_pct": 4.59
       },
       {
         "code": "300189",
         "name": "神农种业",
         "reason": "日换手率达到30%的前5只证券",
-        "close": 6.24,
-        "change_pct": 0.16,
-        "net_buy_wan": -12020.2,
-        "buy_wan": 25447.3,
-        "sell_wan": 37467.5,
-        "turnover_pct": 50.17
+        "close": 6.34,
+        "change_pct": 1.6,
+        "net_buy_wan": 3247.0,
+        "buy_wan": 25541.9,
+        "sell_wan": 22295.0,
+        "turnover_pct": 41.05
       },
       {
-        "code": "000620",
-        "name": "盈新发展",
-        "reason": "日振幅值达到15%的前5只证券",
-        "close": 3.54,
-        "change_pct": 3.81,
-        "net_buy_wan": -12804.1,
-        "buy_wan": 31208.6,
-        "sell_wan": 44012.7,
-        "turnover_pct": 19.23
+        "code": "002667",
+        "name": "*ST威领",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 17.46,
+        "change_pct": 10.02,
+        "net_buy_wan": 2891.7,
+        "buy_wan": 3650.9,
+        "sell_wan": 759.2,
+        "turnover_pct": 0.27
       },
       {
-        "code": "002437",
-        "name": "誉衡药业",
-        "reason": "日振幅值达到15%的前5只证券",
-        "close": 4.3,
-        "change_pct": -9.66,
-        "net_buy_wan": -13550.9,
-        "buy_wan": 39184.5,
-        "sell_wan": 52735.5,
-        "turnover_pct": 35.15
+        "code": "603221",
+        "name": "爱丽家居",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 28.6,
+        "change_pct": 5.93,
+        "net_buy_wan": 2812.3,
+        "buy_wan": 7201.2,
+        "sell_wan": 4389.0,
+        "turnover_pct": 12.8
       },
       {
-        "code": "002437",
-        "name": "誉衡药业",
+        "code": "603113",
+        "name": "金能科技",
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 5.55,
+        "change_pct": 7.77,
+        "net_buy_wan": 2189.7,
+        "buy_wan": 10236.6,
+        "sell_wan": 8046.9,
+        "turnover_pct": 9.33
+      },
+      {
+        "code": "600327",
+        "name": "大东方",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 4.24,
+        "change_pct": 10.13,
+        "net_buy_wan": 1573.5,
+        "buy_wan": 4027.7,
+        "sell_wan": 2454.2,
+        "turnover_pct": 5.87
+      },
+      {
+        "code": "603801",
+        "name": "志邦家居",
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 7.23,
+        "change_pct": 10.05,
+        "net_buy_wan": 1196.8,
+        "buy_wan": 4635.7,
+        "sell_wan": 3438.9,
+        "turnover_pct": 4.76
+      },
+      {
+        "code": "003032",
+        "name": "传智教育",
         "reason": "日换手率达到20%的前5只证券",
-        "close": 4.3,
-        "change_pct": -9.66,
-        "net_buy_wan": -13550.9,
-        "buy_wan": 39184.5,
-        "sell_wan": 52735.5,
-        "turnover_pct": 35.15
+        "close": 11.95,
+        "change_pct": -10.02,
+        "net_buy_wan": 1091.3,
+        "buy_wan": 7785.9,
+        "sell_wan": 6694.6,
+        "turnover_pct": 26.9
       },
       {
-        "code": "301717",
-        "name": "超纯应材",
+        "code": "003032",
+        "name": "传智教育",
+        "reason": "日跌幅偏离值达到7%的前5只证券",
+        "close": 11.95,
+        "change_pct": -10.02,
+        "net_buy_wan": 1091.3,
+        "buy_wan": 7785.9,
+        "sell_wan": 6694.6,
+        "turnover_pct": 26.9
+      },
+      {
+        "code": "300970",
+        "name": "华绿生物",
         "reason": "日换手率达到30%的前5只证券",
-        "close": 383,
-        "change_pct": -19.03,
-        "net_buy_wan": -14164.3,
-        "buy_wan": 36559.1,
-        "sell_wan": 50723.5,
-        "turnover_pct": 40.9
+        "close": 21.74,
+        "change_pct": -3.51,
+        "net_buy_wan": 991.9,
+        "buy_wan": 9678.9,
+        "sell_wan": 8687.0,
+        "turnover_pct": 32.65
       },
       {
-        "code": "301717",
-        "name": "超纯应材",
+        "code": "002726",
+        "name": "ST龙大",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 2.95,
+        "change_pct": 10.07,
+        "net_buy_wan": 366.7,
+        "buy_wan": 10865.5,
+        "sell_wan": 10498.8,
+        "turnover_pct": 10.36
+      },
+      {
+        "code": "001277",
+        "name": "速达股份",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 36.27,
+        "change_pct": 10.01,
+        "net_buy_wan": 47.7,
+        "buy_wan": 6168.3,
+        "sell_wan": 6120.6,
+        "turnover_pct": 13.56
+      },
+      {
+        "code": "603828",
+        "name": "*ST利达",
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 4.98,
+        "change_pct": 9.93,
+        "net_buy_wan": 35.9,
+        "buy_wan": 1592.5,
+        "sell_wan": 1556.6,
+        "turnover_pct": 0.92
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "reason": "有价格涨跌幅限制的连续30个交易日内收盘价格涨幅偏离值累计达到200%的证券",
+        "close": 9.08,
+        "change_pct": 0.22,
+        "net_buy_wan": 0.0,
+        "buy_wan": 8568217.9,
+        "sell_wan": 8568217.9,
+        "turnover_pct": 19.37
+      },
+      {
+        "code": "603211",
+        "name": "晋拓股份",
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+        "close": 23.25,
+        "change_pct": -9.99,
+        "net_buy_wan": -38.7,
+        "buy_wan": 4047.8,
+        "sell_wan": 4086.5,
+        "turnover_pct": 3.26
+      },
+      {
+        "code": "600376",
+        "name": "首开股份",
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+        "close": 3.51,
+        "change_pct": -10.0,
+        "net_buy_wan": -54.1,
+        "buy_wan": 3628.2,
+        "sell_wan": 3682.3,
+        "turnover_pct": 5.74
+      },
+      {
+        "code": "002896",
+        "name": "中大力德",
+        "reason": "日跌幅偏离值达到7%的前5只证券",
+        "close": 68.76,
+        "change_pct": -10.0,
+        "net_buy_wan": -87.3,
+        "buy_wan": 7985.7,
+        "sell_wan": 8073.0,
+        "turnover_pct": 8.22
+      },
+      {
+        "code": "603801",
+        "name": "志邦家居",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 7.23,
+        "change_pct": 10.05,
+        "net_buy_wan": -262.0,
+        "buy_wan": 2568.6,
+        "sell_wan": 2830.6,
+        "turnover_pct": 4.76
+      },
+      {
+        "code": "920367",
+        "name": "新赣江",
+        "reason": "当日换手率达到20%的前5只股票",
+        "close": 29.63,
+        "change_pct": -0.4,
+        "net_buy_wan": -429.6,
+        "buy_wan": 1944.4,
+        "sell_wan": 2374.0,
+        "turnover_pct": 21.99
+      },
+      {
+        "code": "920344",
+        "name": "三元基因",
+        "reason": "当日收盘价涨幅达到20%的前5只股票",
+        "close": 24.76,
+        "change_pct": 29.97,
+        "net_buy_wan": -430.4,
+        "buy_wan": 2723.2,
+        "sell_wan": 3153.5,
+        "turnover_pct": 4.89
+      },
+      {
+        "code": "920117",
+        "name": "龙鑫智能",
+        "reason": "当日换手率达到20%的前5只股票",
+        "close": 29.39,
+        "change_pct": -6.31,
+        "net_buy_wan": -444.4,
+        "buy_wan": 1867.4,
+        "sell_wan": 2311.8,
+        "turnover_pct": 23.02
+      },
+      {
+        "code": "603758",
+        "name": "秦安股份",
+        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券",
+        "close": 10.69,
+        "change_pct": -7.53,
+        "net_buy_wan": -456.6,
+        "buy_wan": 8713.8,
+        "sell_wan": 9170.4,
+        "turnover_pct": 7.08
+      },
+      {
+        "code": "605179",
+        "name": "一鸣食品",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 35.05,
+        "change_pct": 0.86,
+        "net_buy_wan": -562.3,
+        "buy_wan": 11242.9,
+        "sell_wan": 11805.2,
+        "turnover_pct": 9.87
+      },
+      {
+        "code": "603395",
+        "name": "红四方",
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "close": 30.64,
+        "change_pct": 5.66,
+        "net_buy_wan": -781.5,
+        "buy_wan": 7909.9,
+        "sell_wan": 8691.4,
+        "turnover_pct": 43.72
+      },
+      {
+        "code": "603395",
+        "name": "红四方",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 30.64,
+        "change_pct": 5.66,
+        "net_buy_wan": -781.5,
+        "buy_wan": 7909.9,
+        "sell_wan": 8691.4,
+        "turnover_pct": 43.72
+      },
+      {
+        "code": "002346",
+        "name": "柘中股份",
+        "reason": "日跌幅偏离值达到7%的前5只证券",
+        "close": 23.67,
+        "change_pct": -10.0,
+        "net_buy_wan": -802.5,
+        "buy_wan": 11673.8,
+        "sell_wan": 12476.2,
+        "turnover_pct": 4.81
+      },
+      {
+        "code": "920059",
+        "name": "双英集团",
+        "reason": "当日收盘价跌幅达到-20%的前5只股票",
+        "close": 17.33,
+        "change_pct": -29.98,
+        "net_buy_wan": -1281.8,
+        "buy_wan": 2415.1,
+        "sell_wan": 3696.8,
+        "turnover_pct": 56.62
+      },
+      {
+        "code": "920059",
+        "name": "双英集团",
+        "reason": "当日换手率达到20%的前5只股票",
+        "close": 17.33,
+        "change_pct": -29.98,
+        "net_buy_wan": -1281.8,
+        "buy_wan": 2415.1,
+        "sell_wan": 3696.8,
+        "turnover_pct": 56.62
+      },
+      {
+        "code": "600371",
+        "name": "万向德农",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 8.6,
+        "change_pct": -3.91,
+        "net_buy_wan": -1457.5,
+        "buy_wan": 2513.3,
+        "sell_wan": 3970.9,
+        "turnover_pct": 18.14
+      },
+      {
+        "code": "001366",
+        "name": "播恩集团",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 11.92,
+        "change_pct": -5.1,
+        "net_buy_wan": -1877.8,
+        "buy_wan": 3330.9,
+        "sell_wan": 5208.6,
+        "turnover_pct": 12.98
+      },
+      {
+        "code": "002581",
+        "name": "*ST未名",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 5.72,
+        "change_pct": 10.0,
+        "net_buy_wan": -2147.0,
+        "buy_wan": 5059.9,
+        "sell_wan": 7206.8,
+        "turnover_pct": 6.98
+      },
+      {
+        "code": "002820",
+        "name": "桂发祥",
+        "reason": "日跌幅偏离值达到7%的前5只证券",
+        "close": 9.94,
+        "change_pct": -9.96,
+        "net_buy_wan": -2258.3,
+        "buy_wan": 3565.9,
+        "sell_wan": 5824.3,
+        "turnover_pct": 18.99
+      },
+      {
+        "code": "920083",
+        "name": "金戈新材",
+        "reason": "当日换手率达到20%的前5只股票",
+        "close": 44.2,
+        "change_pct": 5.19,
+        "net_buy_wan": -2334.9,
+        "buy_wan": 2482.9,
+        "sell_wan": 4817.7,
+        "turnover_pct": 20.73
+      },
+      {
+        "code": "600721",
+        "name": "百花医药",
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "close": 13.66,
+        "change_pct": -0.44,
+        "net_buy_wan": -2474.1,
+        "buy_wan": 11017.6,
+        "sell_wan": 13491.6,
+        "turnover_pct": 31.79
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+        "close": 9.06,
+        "change_pct": -10.03,
+        "net_buy_wan": -2647.6,
+        "buy_wan": 4926.8,
+        "sell_wan": 7574.4,
+        "turnover_pct": 24.76
+      },
+      {
+        "code": "600272",
+        "name": "开开实业",
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "close": 18.33,
+        "change_pct": -6.0,
+        "net_buy_wan": -2762.9,
+        "buy_wan": 6509.9,
+        "sell_wan": 9272.9,
+        "turnover_pct": 31.08
+      },
+      {
+        "code": "603330",
+        "name": "天洋新材",
+        "reason": "非S证券连续三个交易日内收盘价格跌幅偏离值累计达到20%的证券",
+        "close": 9.06,
+        "change_pct": -10.03,
+        "net_buy_wan": -2916.1,
+        "buy_wan": 20616.9,
+        "sell_wan": 23533.0,
+        "turnover_pct": 24.76
+      },
+      {
+        "code": "301520",
+        "name": "万邦医药",
+        "reason": "日换手率达到30%的前5只证券",
+        "close": 74,
+        "change_pct": -4.1,
+        "net_buy_wan": -3152.0,
+        "buy_wan": 5012.5,
+        "sell_wan": 8164.5,
+        "turnover_pct": 41.74
+      },
+      {
+        "code": "600313",
+        "name": "农发种业",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 6.92,
+        "change_pct": -2.95,
+        "net_buy_wan": -3950.4,
+        "buy_wan": 10828.6,
+        "sell_wan": 14779.0,
+        "turnover_pct": 19.04
+      },
+      {
+        "code": "000802",
+        "name": "北京文化",
+        "reason": "日换手率达到20%的前5只证券",
+        "close": 4.13,
+        "change_pct": -5.28,
+        "net_buy_wan": -4276.6,
+        "buy_wan": 5251.9,
+        "sell_wan": 9528.5,
+        "turnover_pct": 30.95
+      },
+      {
+        "code": "002248",
+        "name": "华东数控",
+        "reason": "日跌幅偏离值达到7%的前5只证券",
+        "close": 10.08,
+        "change_pct": -10.0,
+        "net_buy_wan": -4369.9,
+        "buy_wan": 3837.4,
+        "sell_wan": 8207.3,
+        "turnover_pct": 20.72
+      },
+      {
+        "code": "603407",
+        "name": "长裕集团",
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+        "close": 60.28,
+        "change_pct": -9.98,
+        "net_buy_wan": -4756.8,
+        "buy_wan": 4341.3,
+        "sell_wan": 9098.1,
+        "turnover_pct": 28.27
+      },
+      {
+        "code": "603407",
+        "name": "长裕集团",
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "close": 60.28,
+        "change_pct": -9.98,
+        "net_buy_wan": -4756.8,
+        "buy_wan": 4341.3,
+        "sell_wan": 9098.1,
+        "turnover_pct": 28.27
+      },
+      {
+        "code": "601011",
+        "name": "宝泰隆",
+        "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 3.2,
+        "change_pct": 5.26,
+        "net_buy_wan": -4874.1,
+        "buy_wan": 20896.6,
+        "sell_wan": 25770.7,
+        "turnover_pct": 15.67
+      },
+      {
+        "code": "300246",
+        "name": "宝莱特",
         "reason": "日跌幅达到15%的前5只证券",
-        "close": 383,
-        "change_pct": -19.03,
-        "net_buy_wan": -14164.3,
-        "buy_wan": 36559.1,
-        "sell_wan": 50723.5,
-        "turnover_pct": 40.9
+        "close": 15.71,
+        "change_pct": -15.45,
+        "net_buy_wan": -5365.3,
+        "buy_wan": 7123.3,
+        "sell_wan": 12488.6,
+        "turnover_pct": 16.72
       },
       {
-        "code": "002172",
-        "name": "澳洋健康",
+        "code": "002333",
+        "name": "罗普斯金",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 5.71,
+        "change_pct": -9.94,
+        "net_buy_wan": -5365.7,
+        "buy_wan": 2215.1,
+        "sell_wan": 7580.8,
+        "turnover_pct": 7.19
+      },
+      {
+        "code": "300404",
+        "name": "博济医药",
+        "reason": "日换手率达到30%的前5只证券",
+        "close": 15.74,
+        "change_pct": 2.54,
+        "net_buy_wan": -5967.2,
+        "buy_wan": 13848.0,
+        "sell_wan": 19815.3,
+        "turnover_pct": 31.76
+      },
+      {
+        "code": "301130",
+        "name": "西点药业",
+        "reason": "日换手率达到30%的前5只证券",
+        "close": 33.45,
+        "change_pct": 0.21,
+        "net_buy_wan": -6041.4,
+        "buy_wan": 4664.6,
+        "sell_wan": 10706.0,
+        "turnover_pct": 31.94
+      },
+      {
+        "code": "000505",
+        "name": "京粮控股",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 7.49,
+        "change_pct": 0.27,
+        "net_buy_wan": -6432.2,
+        "buy_wan": 6533.8,
+        "sell_wan": 12965.9,
+        "turnover_pct": 20.73
+      },
+      {
+        "code": "002900",
+        "name": "哈三联",
         "reason": "日换手率达到20%的前5只证券",
-        "close": 4.04,
-        "change_pct": -10.02,
-        "net_buy_wan": -14562.5,
-        "buy_wan": 6434.9,
-        "sell_wan": 20997.4,
-        "turnover_pct": 29.92
+        "close": 15.3,
+        "change_pct": -2.11,
+        "net_buy_wan": -12116.7,
+        "buy_wan": 10050.5,
+        "sell_wan": 22167.2,
+        "turnover_pct": 40.1
       },
       {
-        "code": "002172",
-        "name": "澳洋健康",
-        "reason": "日振幅值达到15%的前5只证券",
-        "close": 4.04,
-        "change_pct": -10.02,
-        "net_buy_wan": -14562.5,
-        "buy_wan": 6434.9,
-        "sell_wan": 20997.4,
-        "turnover_pct": 29.92
+        "code": "600367",
+        "name": "红星发展",
+        "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+        "close": 35.89,
+        "change_pct": -10.01,
+        "net_buy_wan": -15843.3,
+        "buy_wan": 17039.0,
+        "sell_wan": 32882.3,
+        "turnover_pct": 20.13
       },
       {
-        "code": "688585",
-        "name": "上纬新材",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
-        "close": 152.5,
-        "change_pct": -19.3,
-        "net_buy_wan": -15006.2,
-        "buy_wan": 25594.8,
-        "sell_wan": 40601.0,
-        "turnover_pct": 2.83
-      },
-      {
-        "code": "688141",
-        "name": "杰华特",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
-        "close": 120,
-        "change_pct": -16.42,
-        "net_buy_wan": -16343.8,
-        "buy_wan": 62043.3,
-        "sell_wan": 78387.1,
-        "turnover_pct": 5.54
-      },
-      {
-        "code": "001270",
-        "name": "铖昌科技",
-        "reason": "日振幅值达到15%的前5只证券",
-        "close": 109.48,
-        "change_pct": -8.42,
-        "net_buy_wan": -18537.1,
-        "buy_wan": 16855.7,
-        "sell_wan": 35392.8,
-        "turnover_pct": 9.1
-      },
-      {
-        "code": "600722",
-        "name": "金牛化工",
-        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
-        "close": 12.84,
-        "change_pct": -1.38,
-        "net_buy_wan": -19494.5,
-        "buy_wan": 17250.2,
-        "sell_wan": 36744.8,
-        "turnover_pct": 25.21
-      },
-      {
-        "code": "688017",
-        "name": "绿的谐波",
-        "reason": "有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券",
-        "close": 313.53,
-        "change_pct": -17.67,
-        "net_buy_wan": -19617.9,
-        "buy_wan": 50402.1,
-        "sell_wan": 70020.0,
-        "turnover_pct": 8.49
-      },
-      {
-        "code": "002361",
-        "name": "神剑股份",
-        "reason": "日振幅值达到15%的前5只证券",
-        "close": 11.27,
-        "change_pct": -7.01,
-        "net_buy_wan": -26483.3,
-        "buy_wan": 28737.8,
-        "sell_wan": 55221.1,
-        "turnover_pct": 31.25
-      },
-      {
-        "code": "002361",
-        "name": "神剑股份",
-        "reason": "日换手率达到20%的前5只证券",
-        "close": 11.27,
-        "change_pct": -7.01,
-        "net_buy_wan": -26483.3,
-        "buy_wan": 28737.8,
-        "sell_wan": 55221.1,
-        "turnover_pct": 31.25
-      },
-      {
-        "code": "603186",
-        "name": "华正新材",
-        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
-        "close": 175,
-        "change_pct": -4.99,
-        "net_buy_wan": -84330.4,
-        "buy_wan": 144718.6,
-        "sell_wan": 229049.0,
-        "turnover_pct": 25.8
+        "code": "000703",
+        "name": "恒逸石化",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 20.1,
+        "change_pct": 5.35,
+        "net_buy_wan": -23742.0,
+        "buy_wan": 130683.1,
+        "sell_wan": 154425.1,
+        "turnover_pct": 4.59
       }
     ]
   },
   "hot": [
     {
-      "id": 93263973,
-      "名称": "金能科技",
-      "代码": "603113",
-      "题材归因": "焦炭+炭黑+化工涨价",
-      "date": "2026-08-19",
+      "id": 93326491,
+      "名称": "亿嘉和",
+      "代码": "603666",
+      "题材归因": "人形机器人+具身智能+华为合作",
+      "date": "2026-08-20",
       "市场": 17
     },
     {
-      "id": 93262495,
-      "名称": "万和电气",
-      "代码": "002543",
-      "题材归因": "热泵+厨卫电器+海外布局",
-      "date": "2026-08-19",
+      "id": 93325765,
+      "名称": "*ST未名",
+      "代码": "002581",
+      "题材归因": "创新药+神经生长因子+中药饮片",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93259471,
-      "名称": "亿田智能",
-      "代码": "300911",
-      "题材归因": "算力大单+算力中心+集成灶",
-      "date": "2026-08-19",
+      "id": 93321153,
+      "名称": "ST龙大",
+      "代码": "002726",
+      "题材归因": "预重整+猪肉+预制菜+半年报减亏",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93259368,
-      "名称": "华锦股份",
-      "代码": "000059",
-      "题材归因": "石化+化肥+央企+半年报预增",
-      "date": "2026-08-19",
+      "id": 93321118,
+      "名称": "红棉股份",
+      "代码": "000523",
+      "题材归因": "代糖+饮料+半年报预增+广州国资",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93253135,
-      "名称": "南京港",
-      "代码": "002040",
-      "题材归因": "原油中转+国企+业绩增长",
-      "date": "2026-08-19",
+      "id": 93320350,
+      "名称": "若羽臣",
+      "代码": "003010",
+      "题材归因": "自有品牌高增+宠物经济+中报预增",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93251847,
-      "名称": "日出东方",
-      "代码": "603366",
-      "题材归因": "中报扣非净利增长+储能+厨卫电器",
-      "date": "2026-08-19",
+      "id": 93312903,
+      "名称": "海南橡胶",
+      "代码": "601118",
+      "题材归因": "天然橡胶龙头+海南自贸区+国企改革",
+      "date": "2026-08-20",
       "市场": 17
     },
     {
-      "id": 93249575,
-      "名称": "中毅达",
-      "代码": "600610",
-      "题材归因": "季戊四醇+业绩增长+央企",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93249046,
-      "名称": "陕西黑猫",
-      "代码": "601015",
-      "题材归因": "煤炭+焦炭+煤矿投产",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93248048,
-      "名称": "金利华电",
-      "代码": "300069",
-      "题材归因": "商业航天+特高压绝缘子+并购重组",
-      "date": "2026-08-19",
+      "id": 93311807,
+      "名称": "光华股份",
+      "代码": "001333",
+      "题材归因": "聚酯树脂+电子封装材料+产能扩张",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93247742,
-      "名称": "江顺科技",
-      "代码": "001400",
-      "题材归因": "商业航天+3D打印+铝挤压模具+液冷",
-      "date": "2026-08-19",
+      "id": 93309280,
+      "名称": "澳洋健康",
+      "代码": "002172",
+      "题材归因": "此前炒作生肖+脑机接口+医疗服务+国企改革",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93247715,
-      "名称": "斯达半导",
-      "代码": "603290",
-      "题材归因": "IGBT+SiC+功率半导体+低空经济",
-      "date": "2026-08-19",
+      "id": 93308524,
+      "名称": "京投发展",
+      "代码": "600683",
+      "题材归因": "资产重组+拟购光电子资产+TOD轨道物业+北京国资",
+      "date": "2026-08-20",
       "市场": 17
     },
     {
-      "id": 93247419,
-      "名称": "大有能源",
-      "代码": "600403",
-      "题材归因": "煤炭+河南国资",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93247231,
-      "名称": "永顺泰",
-      "代码": "001338",
-      "题材归因": "粮食概念+麦芽+啤酒+国企",
-      "date": "2026-08-19",
+      "id": 93307784,
+      "名称": "宇环数控",
+      "代码": "002903",
+      "题材归因": "机器人+消费电子+数控机床",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93247020,
+      "id": 93307613,
+      "名称": "安科生物",
+      "代码": "300009",
+      "题材归因": "mRNA+创新药+辅助生殖+新药受理",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93292940,
+      "名称": "西藏药业",
+      "代码": "600211",
+      "题材归因": "创新药+基因编辑+半年报增长",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93291589,
+      "名称": "日海智能",
+      "代码": "002313",
+      "题材归因": "端侧AI智能模组+机器人+半年报扭亏+珠海国资",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93290723,
+      "名称": "大东方",
+      "代码": "600327",
+      "题材归因": "医疗服务+百货零售+回购",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93288366,
+      "名称": "如通股份",
+      "代码": "603036",
+      "题材归因": "油气钻采+天然气+轨交业务",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93287310,
+      "名称": "科森科技",
+      "代码": "603626",
+      "题材归因": "机器人+消费电子+AI散热+中报扭亏",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93286255,
+      "名称": "万隆光电",
+      "代码": "300710",
+      "题材归因": "光纤概念+拟收购中控信息+广电网络设备",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93286134,
+      "名称": "新开源",
+      "代码": "300109",
+      "题材归因": "肿瘤疫苗+创新药+PVP龙头",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93286030,
+      "名称": "华曙高科",
+      "代码": "688433",
+      "题材归因": "3D打印+机器人+商业航天+半年报增长",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93285881,
+      "名称": "浙江自然",
+      "代码": "605080",
+      "题材归因": "露营经济+智能床垫+海外产能",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93284370,
+      "名称": "艾艾精工",
+      "代码": "603580",
+      "题材归因": "控制权拟变更+轻型输送带+精密金属结构件",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93283067,
+      "名称": "三星新材",
+      "代码": "603578",
+      "题材归因": "疫苗储存+光伏玻璃+低温储藏玻璃门体",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93283022,
+      "名称": "郑中设计",
+      "代码": "002811",
+      "题材归因": "MEMS芯片+室内设计+订单高增",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93282922,
+      "名称": "南京商旅",
+      "代码": "600250",
+      "题材归因": "国资整合+旅游+商贸+南京国资",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93281996,
+      "名称": "南矿集团",
+      "代码": "001360",
+      "题材归因": "黄金开采+矿山装备+高端装备",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93281693,
+      "名称": "*ST利达",
+      "代码": "603828",
+      "题材归因": "ST板块+建筑装饰+装配式装修+光伏建筑一体化",
+      "date": "2026-08-20",
+      "市场": 22
+    },
+    {
+      "id": 93281320,
+      "名称": "新宏泰",
+      "代码": "603016",
+      "题材归因": "特高压+断路器+国企改革",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93280517,
+      "名称": "康泰生物",
+      "代码": "300601",
+      "题材归因": "mRNA疫苗+创新药+海外业务",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93280496,
+      "名称": "通鼎互联",
+      "代码": "002491",
+      "题材归因": "中报扭亏+光纤光缆+光棒扩产",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93280147,
+      "名称": "狮头股份",
+      "代码": "600539",
+      "题材归因": "半导体先进封装+机器视觉+AI应用+并购重组",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93280003,
+      "名称": "永安药业",
+      "代码": "002365",
+      "题材归因": "牛磺酸+创新药+中报预增",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93279697,
+      "名称": "奥锐特",
+      "代码": "605116",
+      "题材归因": "创新药+司美格鲁肽+集采拟中选",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93279547,
+      "名称": "石药创新",
+      "代码": "300765",
+      "题材归因": "创新药+半年报扭亏+阿斯利康合作",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93279511,
+      "名称": "全新好",
+      "代码": "000007",
+      "题材归因": "物业管理+汽车销售+医疗器械销售+粤港澳大湾区",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93279361,
+      "名称": "塞力医疗",
+      "代码": "603716",
+      "题材归因": "创新药+高血压疫苗+脑机接口",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93279360,
+      "名称": "镇海股份",
+      "代码": "603637",
+      "题材归因": "控制权拟变更+石化工程+产业转型",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93279342,
+      "名称": "宝鼎科技",
+      "代码": "002552",
+      "题材归因": "覆铜板+黄金+业绩预增+地方国资",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93279062,
+      "名称": "德创环保",
+      "代码": "603177",
+      "题材归因": "钠电池+大气治理+船舶SCR",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93279030,
+      "名称": "誉衡药业",
+      "代码": "002437",
+      "题材归因": "创新药+神经退行性疾病+仿制药龙头",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93278839,
+      "名称": "博腾股份",
+      "代码": "300363",
+      "题材归因": "细胞与基因治疗+创新药CDMO+业绩扭亏",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93278592,
+      "名称": "哈森股份",
+      "代码": "603958",
+      "题材归因": "苹果产业链+机器人概念+重组+中报预计扭亏",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93278584,
+      "名称": "立霸股份",
+      "代码": "603519",
+      "题材归因": "半年报增长+股权转让+第三代半导体+家电复合材料",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93278510,
+      "名称": "金域医学",
+      "代码": "603882",
+      "题材归因": "AI医疗+数据要素+半年报扭亏+回购",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93278500,
+      "名称": "大明电子",
+      "代码": "603376",
+      "题材归因": "汽车电子+无人驾驶+赛力斯产业链",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93278390,
+      "名称": "中京电子",
+      "代码": "002579",
+      "题材归因": "PCB+定增获批+算力+光模块",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93278153,
+      "名称": "正泰电器",
+      "代码": "601877",
+      "题材归因": "半年报增长+低压电器+光伏+储能",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93278150,
+      "名称": "优宁维",
+      "代码": "301166",
+      "题材归因": "创新药+抗体+细胞因子蛋白+股份回购",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93278118,
+      "名称": "凤凰航运",
+      "代码": "000520",
+      "题材归因": "半年报业绩大增+干散货航运+灵便型船",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93278077,
+      "名称": "键邦股份",
+      "代码": "603285",
+      "题材归因": "电磁线漆+赛克产品+锂电池+拟收购",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277979,
       "名称": "速达股份",
       "代码": "001277",
-      "题材归因": "煤炭设备后市场+农机+海外布局+高管增持",
-      "date": "2026-08-19",
+      "题材归因": "煤炭设备后市场+农机+高管增持",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93246770,
-      "名称": "好太太",
-      "代码": "603848",
-      "题材归因": "半年报增长+智能家居+智能晾晒",
-      "date": "2026-08-19",
+      "id": 93277911,
+      "名称": "富煌钢构",
+      "代码": "002743",
+      "题材归因": "预重整+装配式建筑+钢结构",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277889,
+      "名称": "深中华A",
+      "代码": "000017",
+      "题材归因": "黄金珠宝+黄金涨价+年报增长",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277859,
+      "名称": "万泰生物",
+      "代码": "603392",
+      "题材归因": "九价HPV疫苗+出海+创新药",
+      "date": "2026-08-20",
       "市场": 17
     },
     {
-      "id": 93246745,
-      "名称": "西点药业",
-      "代码": "301130",
-      "题材归因": "创新药+瑞香素+化学制药",
-      "date": "2026-08-19",
+      "id": 93277841,
+      "名称": "卫光生物",
+      "代码": "002880",
+      "题材归因": "血液制品+采浆增长+定增扩产+深圳国资",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93246729,
-      "名称": "美锦能源",
-      "代码": "000723",
-      "题材归因": "焦炭+氢能全产业链+中报预计减亏",
-      "date": "2026-08-19",
+      "id": 93277817,
+      "名称": "康为世纪",
+      "代码": "688426",
+      "题材归因": "分子诊断+基因测序+肺炎支原体检测",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277809,
+      "名称": "中电电机",
+      "代码": "603988",
+      "题材归因": "实控人涉及黄金开采+电机+风电+储能",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277801,
+      "名称": "华大智造",
+      "代码": "688114",
+      "题材归因": "基因测序+AI应用+回购",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277782,
+      "名称": "康华生物",
+      "代码": "300841",
+      "题材归因": "mRNA疫苗+半年报增长+狂犬病疫苗",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93246698,
-      "名称": "亨迪药业",
-      "代码": "301211",
-      "题材归因": "创新药+布洛芬+原料药",
-      "date": "2026-08-19",
+      "id": 93277775,
+      "名称": "金房能源",
+      "代码": "001210",
+      "题材归因": "磁悬浮热泵+新能源供热+数据中心供冷+综合能源",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93246653,
+      "id": 93277741,
+      "名称": "志邦家居",
+      "代码": "603801",
+      "题材归因": "定制家居+海外业务+整家一体化+高股息",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277740,
+      "名称": "风范股份",
+      "代码": "601700",
+      "题材归因": "中标+特高压+国企改革+中报预增",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277731,
+      "名称": "金健米业",
+      "代码": "600127",
+      "题材归因": "粮食安全+粮油加工+大健康食品+湖南国资",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277711,
+      "名称": "达安基因",
+      "代码": "002030",
+      "题材归因": "广药入主+猴痘概念+分子诊断+广州国资",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277707,
+      "名称": "贝瑞基因",
+      "代码": "000710",
+      "题材归因": "AI医疗+基因测序+医疗服务",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277690,
+      "名称": "诺唯赞",
+      "代码": "688105",
+      "题材归因": "医药研发试剂+AD检测+控股股东增持",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277675,
+      "名称": "昂利康",
+      "代码": "002940",
+      "题材归因": "创新药+仿制药获批+定增过会",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277663,
+      "名称": "古汉医药",
+      "代码": "000590",
+      "题材归因": "中药+流感",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277648,
+      "名称": "康辰药业",
+      "代码": "603590",
+      "题材归因": "创新药+KAT6/7抑制剂+血凝酶龙头",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277644,
+      "名称": "神奇制药",
+      "代码": "600613",
+      "题材归因": "创新药+抗肿瘤+品牌OTC",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277640,
+      "名称": "智飞生物",
+      "代码": "300122",
+      "题材归因": "默沙东代理+mRNA疫苗+GLP-1",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277630,
+      "名称": "海普瑞",
+      "代码": "002399",
+      "题材归因": "创新药+依诺肝素制剂+集采中标",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277627,
+      "名称": "三元基因",
+      "代码": "920344",
+      "题材归因": "肿瘤疫苗+人干扰素α1b",
+      "date": "2026-08-20",
+      "市场": 0
+    },
+    {
+      "id": 93277526,
+      "名称": "悦康药业",
+      "代码": "688658",
+      "题材归因": "siRNA药物+创新药+FDA批准",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277524,
+      "名称": "近岸蛋白",
+      "代码": "688137",
+      "题材归因": "肿瘤疫苗+mRNA原料+重组蛋白+CRO",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277520,
+      "名称": "百克生物",
+      "代码": "688276",
+      "题材归因": "mRNA疫苗+肿瘤疫苗+鼻喷流感疫苗",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277518,
+      "名称": "康希诺",
+      "代码": "688185",
+      "题材归因": "mRNA技术+百白破疫苗+创新疫苗",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277515,
+      "名称": "沃森生物",
+      "代码": "300142",
+      "题材归因": "mRNA疫苗+创新药+海外出口",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277514,
+      "名称": "莱美药业",
+      "代码": "300006",
+      "题材归因": "抗肿瘤药物+创新药+广西国资",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277511,
+      "名称": "*ST威领",
+      "代码": "002667",
+      "题材归因": "要约收购+钨锡铅锌矿+碳酸锂",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277509,
+      "名称": "双鹭药业",
+      "代码": "002038",
+      "题材归因": "mRNA平台+GLP-1+创新药+国企改革",
+      "date": "2026-08-20",
+      "市场": 33
+    },
+    {
+      "id": 93277507,
+      "名称": "键凯科技",
+      "代码": "688356",
+      "题材归因": "mRNA癌症疫苗+创新药+聚乙二醇",
+      "date": "2026-08-20",
+      "市场": 17
+    },
+    {
+      "id": 93277505,
       "名称": "汉森制药",
       "代码": "002412",
       "题材归因": "创新药+中药+中报预增",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "市场": 33
     },
     {
-      "id": 93246645,
-      "名称": "我爱我家",
-      "代码": "000560",
-      "题材归因": "房产经纪+长租公寓+AI应用",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246643,
-      "名称": "学大教育",
-      "代码": "000526",
-      "题材归因": "半年报增长+职业教育+个性化教育",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246633,
-      "名称": "志邦家居",
-      "代码": "603801",
-      "题材归因": "定制家居+整家一体化+老房焕新+海外业务",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246628,
-      "名称": "百合股份",
-      "代码": "603102",
-      "题材归因": "宠物经济+营养保健食品+半年报营收增长",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246593,
-      "名称": "万向德农",
-      "代码": "600371",
-      "题材归因": "转基因+粮食概念+玉米种业",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246583,
-      "名称": "哈三联",
-      "代码": "002900",
-      "题材归因": "创新药+化学制药+中报预计减亏",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246578,
-      "名称": "尚太科技",
-      "代码": "001301",
-      "题材归因": "负极材料+半年报+产能扩张",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246577,
-      "名称": "中交发展",
-      "代码": "000736",
-      "题材归因": "轻资产运营+物业服务+数据中心+中交房地产控股",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246575,
-      "名称": "京粮控股",
-      "代码": "000505",
-      "题材归因": "粮食概念+油脂加工+国企改革",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246554,
-      "名称": "宝泰隆",
-      "代码": "601011",
-      "题材归因": "石墨烯导热膜+煤化工+石墨矿",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246539,
-      "名称": "南都物业",
-      "代码": "603506",
-      "题材归因": "物业服务+机器人+业绩增长",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246512,
-      "名称": "深华发A",
-      "代码": "000020",
-      "题材归因": "显示器+深圳旧改+物业管理",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246475,
-      "名称": "红四方",
-      "代码": "603395",
-      "题材归因": "新疆煤化工项目+复合肥+央企",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246474,
-      "名称": "鲁信创投",
-      "代码": "600783",
-      "题材归因": "参股蓝箭航天+创投+机器人+山东国资",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246472,
-      "名称": "金健米业",
-      "代码": "600127",
-      "题材归因": "粮食安全+粮油加工+湖南国资",
-      "date": "2026-08-19",
-      "市场": 17
-    },
-    {
-      "id": 93246471,
-      "名称": "日丰股份",
-      "代码": "002953",
-      "题材归因": "拟投资+光纤预制棒+机器人电缆+通信装备组件",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246470,
-      "名称": "*ST威领",
-      "代码": "002667",
-      "题材归因": "要约收购+钨锡铅锌矿+碳酸锂+ST板块",
-      "date": "2026-08-19",
-      "市场": 33
-    },
-    {
-      "id": 93246469,
-      "名称": "罗普斯金",
-      "代码": "002333",
-      "题材归因": "拟收购盟萤科技+检测业务+铝型材",
-      "date": "2026-08-19",
+      "id": 93277504,
+      "名称": "中关村",
+      "代码": "000931",
+      "题材归因": "创新药+精麻镇痛+药品获批",
+      "date": "2026-08-20",
       "市场": 33
     }
   ],
   "theme_freq": [
     [
       "创新药",
-      4
+      23
     ],
     [
-      "焦炭",
-      3
-    ],
-    [
-      "央企",
-      3
-    ],
-    [
-      "业绩增长",
-      3
-    ],
-    [
-      "粮食概念",
-      3
-    ],
-    [
-      "厨卫电器",
-      2
-    ],
-    [
-      "海外布局",
-      2
-    ],
-    [
-      "国企",
-      2
-    ],
-    [
-      "煤炭",
-      2
-    ],
-    [
-      "商业航天",
-      2
+      "国企改革",
+      5
     ],
     [
       "半年报增长",
-      2
+      5
     ],
     [
-      "化学制药",
-      2
+      "mRNA疫苗",
+      5
     ],
     [
-      "中报预计减亏",
-      2
-    ],
-    [
-      "物业服务",
-      2
+      "中报预增",
+      4
     ],
     [
       "机器人",
+      4
+    ],
+    [
+      "肿瘤疫苗",
+      4
+    ],
+    [
+      "医疗服务",
+      3
+    ],
+    [
+      "半年报扭亏",
+      3
+    ],
+    [
+      "回购",
+      3
+    ],
+    [
+      "基因测序",
+      3
+    ],
+    [
+      "预重整",
       2
     ],
     [
-      "炭黑",
+      "广州国资",
+      2
+    ],
+    [
+      "脑机接口",
+      2
+    ],
+    [
+      "消费电子",
+      2
+    ],
+    [
+      "中报扭亏",
+      2
+    ],
+    [
+      "控制权拟变更",
+      2
+    ],
+    [
+      "特高压",
+      2
+    ],
+    [
+      "海外业务",
+      2
+    ],
+    [
+      "AI应用",
+      2
+    ],
+    [
+      "AI医疗",
+      2
+    ],
+    [
+      "储能",
+      2
+    ],
+    [
+      "分子诊断",
+      2
+    ],
+    [
+      "中药",
+      2
+    ],
+    [
+      "GLP-1",
+      2
+    ],
+    [
+      "人形机器人",
       1
     ],
     [
-      "化工涨价",
+      "具身智能",
       1
     ],
     [
-      "热泵",
+      "华为合作",
       1
     ],
     [
-      "算力大单",
+      "神经生长因子",
       1
     ],
     [
-      "算力中心",
+      "中药饮片",
       1
     ],
     [
-      "集成灶",
+      "猪肉",
       1
     ],
     [
-      "石化",
+      "预制菜",
       1
     ],
     [
-      "化肥",
+      "半年报减亏",
+      1
+    ],
+    [
+      "代糖",
+      1
+    ],
+    [
+      "饮料",
       1
     ],
     [
@@ -1315,31 +1676,115 @@
       1
     ],
     [
-      "原油中转",
+      "自有品牌高增",
       1
     ],
     [
-      "中报扣非净利增长",
+      "宠物经济",
       1
     ],
     [
-      "储能",
+      "天然橡胶龙头",
       1
     ],
     [
-      "季戊四醇",
+      "海南自贸区",
       1
     ],
     [
-      "煤矿投产",
+      "聚酯树脂",
       1
     ],
     [
-      "特高压绝缘子",
+      "电子封装材料",
       1
     ],
     [
-      "并购重组",
+      "产能扩张",
+      1
+    ],
+    [
+      "此前炒作生肖",
+      1
+    ],
+    [
+      "资产重组",
+      1
+    ],
+    [
+      "拟购光电子资产",
+      1
+    ],
+    [
+      "TOD轨道物业",
+      1
+    ],
+    [
+      "北京国资",
+      1
+    ],
+    [
+      "数控机床",
+      1
+    ],
+    [
+      "mRNA",
+      1
+    ],
+    [
+      "辅助生殖",
+      1
+    ],
+    [
+      "新药受理",
+      1
+    ],
+    [
+      "基因编辑",
+      1
+    ],
+    [
+      "端侧AI智能模组",
+      1
+    ],
+    [
+      "珠海国资",
+      1
+    ],
+    [
+      "百货零售",
+      1
+    ],
+    [
+      "油气钻采",
+      1
+    ],
+    [
+      "天然气",
+      1
+    ],
+    [
+      "轨交业务",
+      1
+    ],
+    [
+      "AI散热",
+      1
+    ],
+    [
+      "光纤概念",
+      1
+    ],
+    [
+      "拟收购中控信息",
+      1
+    ],
+    [
+      "广电网络设备",
+      1
+    ],
+    [
+      "PVP龙头",
       1
     ],
     [
@@ -1347,39 +1792,319 @@
       1
     ],
     [
-      "铝挤压模具",
+      "商业航天",
       1
     ],
     [
-      "液冷",
+      "露营经济",
       1
     ],
     [
-      "IGBT",
+      "智能床垫",
       1
     ],
     [
-      "SiC",
+      "海外产能",
       1
     ],
     [
-      "功率半导体",
+      "轻型输送带",
       1
     ],
     [
-      "低空经济",
+      "精密金属结构件",
       1
     ],
     [
-      "河南国资",
+      "疫苗储存",
       1
     ],
     [
-      "麦芽",
+      "光伏玻璃",
       1
     ],
     [
-      "啤酒",
+      "低温储藏玻璃门体",
+      1
+    ],
+    [
+      "MEMS芯片",
+      1
+    ],
+    [
+      "室内设计",
+      1
+    ],
+    [
+      "订单高增",
+      1
+    ],
+    [
+      "国资整合",
+      1
+    ],
+    [
+      "旅游",
+      1
+    ],
+    [
+      "商贸",
+      1
+    ],
+    [
+      "南京国资",
+      1
+    ],
+    [
+      "黄金开采",
+      1
+    ],
+    [
+      "矿山装备",
+      1
+    ],
+    [
+      "高端装备",
+      1
+    ],
+    [
+      "ST板块",
+      1
+    ],
+    [
+      "建筑装饰",
+      1
+    ],
+    [
+      "装配式装修",
+      1
+    ],
+    [
+      "光伏建筑一体化",
+      1
+    ],
+    [
+      "断路器",
+      1
+    ],
+    [
+      "光纤光缆",
+      1
+    ],
+    [
+      "光棒扩产",
+      1
+    ],
+    [
+      "半导体先进封装",
+      1
+    ],
+    [
+      "机器视觉",
+      1
+    ],
+    [
+      "并购重组",
+      1
+    ],
+    [
+      "牛磺酸",
+      1
+    ],
+    [
+      "司美格鲁肽",
+      1
+    ],
+    [
+      "集采拟中选",
+      1
+    ],
+    [
+      "阿斯利康合作",
+      1
+    ],
+    [
+      "物业管理",
+      1
+    ],
+    [
+      "汽车销售",
+      1
+    ],
+    [
+      "医疗器械销售",
+      1
+    ],
+    [
+      "粤港澳大湾区",
+      1
+    ],
+    [
+      "高血压疫苗",
+      1
+    ],
+    [
+      "石化工程",
+      1
+    ],
+    [
+      "产业转型",
+      1
+    ],
+    [
+      "覆铜板",
+      1
+    ],
+    [
+      "黄金",
+      1
+    ],
+    [
+      "业绩预增",
+      1
+    ],
+    [
+      "地方国资",
+      1
+    ],
+    [
+      "钠电池",
+      1
+    ],
+    [
+      "大气治理",
+      1
+    ],
+    [
+      "船舶SCR",
+      1
+    ],
+    [
+      "神经退行性疾病",
+      1
+    ],
+    [
+      "仿制药龙头",
+      1
+    ],
+    [
+      "细胞与基因治疗",
+      1
+    ],
+    [
+      "创新药CDMO",
+      1
+    ],
+    [
+      "业绩扭亏",
+      1
+    ],
+    [
+      "苹果产业链",
+      1
+    ],
+    [
+      "机器人概念",
+      1
+    ],
+    [
+      "重组",
+      1
+    ],
+    [
+      "中报预计扭亏",
+      1
+    ],
+    [
+      "股权转让",
+      1
+    ],
+    [
+      "第三代半导体",
+      1
+    ],
+    [
+      "家电复合材料",
+      1
+    ],
+    [
+      "数据要素",
+      1
+    ],
+    [
+      "汽车电子",
+      1
+    ],
+    [
+      "无人驾驶",
+      1
+    ],
+    [
+      "赛力斯产业链",
+      1
+    ],
+    [
+      "PCB",
+      1
+    ],
+    [
+      "定增获批",
+      1
+    ],
+    [
+      "算力",
+      1
+    ],
+    [
+      "光模块",
+      1
+    ],
+    [
+      "低压电器",
+      1
+    ],
+    [
+      "光伏",
+      1
+    ],
+    [
+      "抗体",
+      1
+    ],
+    [
+      "细胞因子蛋白",
+      1
+    ],
+    [
+      "股份回购",
+      1
+    ],
+    [
+      "半年报业绩大增",
+      1
+    ],
+    [
+      "干散货航运",
+      1
+    ],
+    [
+      "灵便型船",
+      1
+    ],
+    [
+      "电磁线漆",
+      1
+    ],
+    [
+      "赛克产品",
+      1
+    ],
+    [
+      "锂电池",
+      1
+    ],
+    [
+      "拟收购",
       1
     ],
     [
@@ -1395,55 +2120,83 @@
       1
     ],
     [
-      "智能家居",
+      "装配式建筑",
       1
     ],
     [
-      "智能晾晒",
+      "钢结构",
       1
     ],
     [
-      "瑞香素",
+      "黄金珠宝",
       1
     ],
     [
-      "氢能全产业链",
+      "黄金涨价",
       1
     ],
     [
-      "布洛芬",
+      "年报增长",
       1
     ],
     [
-      "原料药",
+      "九价HPV疫苗",
       1
     ],
     [
-      "中药",
+      "出海",
       1
     ],
     [
-      "中报预增",
+      "血液制品",
       1
     ],
     [
-      "房产经纪",
+      "采浆增长",
       1
     ],
     [
-      "长租公寓",
+      "定增扩产",
       1
     ],
     [
-      "AI应用",
+      "深圳国资",
       1
     ],
     [
-      "职业教育",
+      "肺炎支原体检测",
       1
     ],
     [
-      "个性化教育",
+      "实控人涉及黄金开采",
+      1
+    ],
+    [
+      "电机",
+      1
+    ],
+    [
+      "风电",
+      1
+    ],
+    [
+      "狂犬病疫苗",
+      1
+    ],
+    [
+      "磁悬浮热泵",
+      1
+    ],
+    [
+      "新能源供热",
+      1
+    ],
+    [
+      "数据中心供冷",
+      1
+    ],
+    [
+      "综合能源",
       1
     ],
     [
@@ -1455,107 +2208,11 @@
       1
     ],
     [
-      "老房焕新",
+      "高股息",
       1
     ],
     [
-      "海外业务",
-      1
-    ],
-    [
-      "宠物经济",
-      1
-    ],
-    [
-      "营养保健食品",
-      1
-    ],
-    [
-      "半年报营收增长",
-      1
-    ],
-    [
-      "转基因",
-      1
-    ],
-    [
-      "玉米种业",
-      1
-    ],
-    [
-      "负极材料",
-      1
-    ],
-    [
-      "半年报",
-      1
-    ],
-    [
-      "产能扩张",
-      1
-    ],
-    [
-      "轻资产运营",
-      1
-    ],
-    [
-      "数据中心",
-      1
-    ],
-    [
-      "中交房地产控股",
-      1
-    ],
-    [
-      "油脂加工",
-      1
-    ],
-    [
-      "国企改革",
-      1
-    ],
-    [
-      "石墨烯导热膜",
-      1
-    ],
-    [
-      "煤化工",
-      1
-    ],
-    [
-      "石墨矿",
-      1
-    ],
-    [
-      "显示器",
-      1
-    ],
-    [
-      "深圳旧改",
-      1
-    ],
-    [
-      "物业管理",
-      1
-    ],
-    [
-      "新疆煤化工项目",
-      1
-    ],
-    [
-      "复合肥",
-      1
-    ],
-    [
-      "参股蓝箭航天",
-      1
-    ],
-    [
-      "创投",
-      1
-    ],
-    [
-      "山东国资",
+      "中标",
       1
     ],
     [
@@ -1567,23 +2224,123 @@
       1
     ],
     [
+      "大健康食品",
+      1
+    ],
+    [
       "湖南国资",
       1
     ],
     [
-      "拟投资",
+      "广药入主",
       1
     ],
     [
-      "光纤预制棒",
+      "猴痘概念",
       1
     ],
     [
-      "机器人电缆",
+      "医药研发试剂",
       1
     ],
     [
-      "通信装备组件",
+      "AD检测",
+      1
+    ],
+    [
+      "控股股东增持",
+      1
+    ],
+    [
+      "仿制药获批",
+      1
+    ],
+    [
+      "定增过会",
+      1
+    ],
+    [
+      "流感",
+      1
+    ],
+    [
+      "KAT6/7抑制剂",
+      1
+    ],
+    [
+      "血凝酶龙头",
+      1
+    ],
+    [
+      "抗肿瘤",
+      1
+    ],
+    [
+      "品牌OTC",
+      1
+    ],
+    [
+      "默沙东代理",
+      1
+    ],
+    [
+      "依诺肝素制剂",
+      1
+    ],
+    [
+      "集采中标",
+      1
+    ],
+    [
+      "人干扰素α1b",
+      1
+    ],
+    [
+      "siRNA药物",
+      1
+    ],
+    [
+      "FDA批准",
+      1
+    ],
+    [
+      "mRNA原料",
+      1
+    ],
+    [
+      "重组蛋白",
+      1
+    ],
+    [
+      "CRO",
+      1
+    ],
+    [
+      "鼻喷流感疫苗",
+      1
+    ],
+    [
+      "mRNA技术",
+      1
+    ],
+    [
+      "百白破疫苗",
+      1
+    ],
+    [
+      "创新疫苗",
+      1
+    ],
+    [
+      "海外出口",
+      1
+    ],
+    [
+      "抗肿瘤药物",
+      1
+    ],
+    [
+      "广西国资",
       1
     ],
     [
@@ -1599,19 +2356,23 @@
       1
     ],
     [
-      "ST板块",
+      "mRNA平台",
       1
     ],
     [
-      "拟收购盟萤科技",
+      "mRNA癌症疫苗",
       1
     ],
     [
-      "检测业务",
+      "聚乙二醇",
       1
     ],
     [
-      "铝型材",
+      "精麻镇痛",
+      1
+    ],
+    [
+      "药品获批",
       1
     ]
   ],
@@ -1619,448 +2380,448 @@
     "top": [
       {
         "rank": 1,
-        "name": "焦炭Ⅱ",
-        "change_pct": 6.53,
-        "code": "BK1249",
-        "up_count": 7,
-        "down_count": 0,
-        "leader": "宝泰隆",
-        "leader_code": "601011",
-        "leader_change": 10.14
+        "name": "生物制品",
+        "change_pct": 8.64,
+        "code": "BK1044",
+        "up_count": 56,
+        "down_count": 2,
+        "leader": "沃森生物",
+        "leader_code": "300142",
+        "leader_change": 20.0
       },
       {
         "rank": 2,
-        "name": "厨卫电器",
-        "change_pct": 4.57,
-        "code": "BK1240",
-        "up_count": 7,
+        "name": "医疗服务",
+        "change_pct": 6.06,
+        "code": "BK0727",
+        "up_count": 52,
         "down_count": 2,
-        "leader": "日出东方",
-        "leader_code": "603366",
-        "leader_change": 9.94
-      },
-      {
-        "rank": 3,
-        "name": "银行Ⅱ",
-        "change_pct": 1.46,
-        "code": "BK0475",
-        "up_count": 40,
-        "down_count": 0,
-        "leader": "中信银行",
-        "leader_code": "601998",
-        "leader_change": 4.48
-      },
-      {
-        "rank": 4,
-        "name": "房地产服务",
-        "change_pct": 1.21,
-        "code": "BK1045",
-        "up_count": 7,
-        "down_count": 8,
-        "leader": "南都物业",
-        "leader_code": "603506",
-        "leader_change": 10.0
-      },
-      {
-        "rank": 5,
-        "name": "煤炭开采",
-        "change_pct": 0.4,
-        "code": "BK1250",
-        "up_count": 14,
-        "down_count": 13,
-        "leader": "大有能源",
-        "leader_code": "600403",
-        "leader_change": 10.0
-      },
-      {
-        "rank": 6,
-        "name": "航运港口",
-        "change_pct": 0.36,
-        "code": "BK0450",
-        "up_count": 17,
-        "down_count": 17,
-        "leader": "南 京 港",
-        "leader_code": "002040",
-        "leader_change": 9.95
-      },
-      {
-        "rank": 7,
-        "name": "保险Ⅱ",
-        "change_pct": 0.2,
-        "code": "BK0474",
-        "up_count": 2,
-        "down_count": 3,
-        "leader": "中国平安",
-        "leader_code": "601318",
-        "leader_change": 1.48
-      },
-      {
-        "rank": 8,
-        "name": "航空机场",
-        "change_pct": -0.87,
-        "code": "BK0420",
-        "up_count": 2,
-        "down_count": 12,
-        "leader": "海控B股",
-        "leader_code": "900945",
-        "leader_change": 0.49
-      },
-      {
-        "rank": 9,
-        "name": "贵金属",
-        "change_pct": -0.89,
-        "code": "BK0732",
-        "up_count": 4,
-        "down_count": 9,
-        "leader": "山东黄金",
-        "leader_code": "600547",
-        "leader_change": 6.5
-      },
-      {
-        "rank": 10,
-        "name": "铁路公路",
-        "change_pct": -0.93,
-        "code": "BK0421",
-        "up_count": 10,
-        "down_count": 22,
-        "leader": "四川成渝",
-        "leader_code": "601107",
-        "leader_change": 1.27
-      },
-      {
-        "rank": 11,
-        "name": "炼化及贸易",
-        "change_pct": -1.11,
-        "code": "BK1274",
-        "up_count": 7,
-        "down_count": 23,
-        "leader": "华锦股份",
-        "leader_code": "000059",
+        "leader": "贝瑞基因",
+        "leader_code": "000710",
         "leader_change": 9.98
       },
       {
-        "rank": 12,
-        "name": "中药Ⅱ",
-        "change_pct": -1.48,
-        "code": "BK1040",
+        "rank": 3,
+        "name": "贵金属",
+        "change_pct": 5.56,
+        "code": "BK0732",
         "up_count": 12,
-        "down_count": 54,
-        "leader": "汉森制药",
-        "leader_code": "002412",
-        "leader_change": 10.07
+        "down_count": 0,
+        "leader": "山东黄金",
+        "leader_code": "600547",
+        "leader_change": 8.59
+      },
+      {
+        "rank": 4,
+        "name": "医疗器械",
+        "change_pct": 4.12,
+        "code": "BK1041",
+        "up_count": 130,
+        "down_count": 9,
+        "leader": "达安基因",
+        "leader_code": "002030",
+        "leader_change": 9.94
+      },
+      {
+        "rank": 5,
+        "name": "化学制药",
+        "change_pct": 3.95,
+        "code": "BK0465",
+        "up_count": 143,
+        "down_count": 14,
+        "leader": "中 关 村",
+        "leader_code": "000931",
+        "leader_change": 9.98
+      },
+      {
+        "rank": 6,
+        "name": "医疗美容",
+        "change_pct": 3.27,
+        "code": "BK1253",
+        "up_count": 4,
+        "down_count": 0,
+        "leader": "华熙生物",
+        "leader_code": "688363",
+        "leader_change": 3.76
+      },
+      {
+        "rank": 7,
+        "name": "通信设备",
+        "change_pct": 3.27,
+        "code": "BK0448",
+        "up_count": 78,
+        "down_count": 13,
+        "leader": "万隆光电",
+        "leader_code": "300710",
+        "leader_change": 20.01
+      },
+      {
+        "rank": 8,
+        "name": "互联网电商",
+        "change_pct": 3.17,
+        "code": "BK1268",
+        "up_count": 17,
+        "down_count": 1,
+        "leader": "狮头股份",
+        "leader_code": "600539",
+        "leader_change": 10.03
+      },
+      {
+        "rank": 9,
+        "name": "旅游及景区",
+        "change_pct": 3.16,
+        "code": "BK1272",
+        "up_count": 27,
+        "down_count": 0,
+        "leader": "南京商旅",
+        "leader_code": "600250",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 10,
+        "name": "房屋建设Ⅱ",
+        "change_pct": 3.07,
+        "code": "BK1246",
+        "up_count": 8,
+        "down_count": 0,
+        "leader": "ST龙元",
+        "leader_code": "600491",
+        "leader_change": 9.62
+      },
+      {
+        "rank": 11,
+        "name": "文娱用品",
+        "change_pct": 2.86,
+        "code": "BK1266",
+        "up_count": 19,
+        "down_count": 2,
+        "leader": "浙江自然",
+        "leader_code": "605080",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 12,
+        "name": "乘用车",
+        "change_pct": 2.77,
+        "code": "BK1262",
+        "up_count": 9,
+        "down_count": 0,
+        "leader": "广汽集团",
+        "leader_code": "601238",
+        "leader_change": 7.98
       },
       {
         "rank": 13,
-        "name": "白色家电",
-        "change_pct": -1.59,
-        "code": "BK1239",
-        "up_count": 3,
-        "down_count": 9,
-        "leader": "格力电器",
-        "leader_code": "000651",
-        "leader_change": 3.15
+        "name": "个护用品",
+        "change_pct": 2.73,
+        "code": "BK1251",
+        "up_count": 13,
+        "down_count": 0,
+        "leader": "润本股份",
+        "leader_code": "603193",
+        "leader_change": 5.01
       },
       {
         "rank": 14,
-        "name": "油服工程",
-        "change_pct": -1.6,
-        "code": "BK1275",
-        "up_count": 4,
-        "down_count": 9,
-        "leader": "科力股份",
-        "leader_code": "920088",
-        "leader_change": 2.42
+        "name": "中药Ⅱ",
+        "change_pct": 2.4,
+        "code": "BK1040",
+        "up_count": 62,
+        "down_count": 4,
+        "leader": "汉森制药",
+        "leader_code": "002412",
+        "leader_change": 9.98
       },
       {
         "rank": 15,
-        "name": "普钢",
-        "change_pct": -1.62,
-        "code": "BK1226",
-        "up_count": 2,
-        "down_count": 22,
-        "leader": "南钢股份",
-        "leader_code": "600282",
-        "leader_change": 1.27
+        "name": "酒店餐饮",
+        "change_pct": 2.37,
+        "code": "BK1271",
+        "up_count": 10,
+        "down_count": 0,
+        "leader": "ST云网",
+        "leader_code": "002306",
+        "leader_change": 5.41
       },
       {
         "rank": 16,
-        "name": "证券Ⅱ",
-        "change_pct": -1.62,
-        "code": "BK0473",
-        "up_count": 2,
-        "down_count": 47,
-        "leader": "国泰海通",
-        "leader_code": "601211",
-        "leader_change": 0.62
+        "name": "装修装饰Ⅱ",
+        "change_pct": 2.28,
+        "code": "BK0725",
+        "up_count": 18,
+        "down_count": 3,
+        "leader": "郑中设计",
+        "leader_code": "002811",
+        "leader_change": 9.99
       },
       {
         "rank": 17,
-        "name": "商用车",
-        "change_pct": -1.63,
-        "code": "BK1264",
-        "up_count": 4,
-        "down_count": 10,
-        "leader": "中集车辆",
-        "leader_code": "301039",
-        "leader_change": 1.65
+        "name": "体育Ⅱ",
+        "change_pct": 2.19,
+        "code": "BK1273",
+        "up_count": 3,
+        "down_count": 0,
+        "leader": "久事动娱",
+        "leader_code": "600676",
+        "leader_change": 2.49
       },
       {
         "rank": 18,
-        "name": "乘用车",
-        "change_pct": -1.68,
-        "code": "BK1262",
-        "up_count": 0,
-        "down_count": 9,
-        "leader": "上汽集团",
-        "leader_code": "600104",
-        "leader_change": -0.2
+        "name": "综合Ⅱ",
+        "change_pct": 2.17,
+        "code": "BK0539",
+        "up_count": 19,
+        "down_count": 3,
+        "leader": "红棉股份",
+        "leader_code": "000523",
+        "leader_change": 9.97
       },
       {
         "rank": 19,
-        "name": "化学原料",
-        "change_pct": -1.74,
-        "code": "BK1019",
-        "up_count": 9,
-        "down_count": 55,
-        "leader": "中毅达",
-        "leader_code": "600610",
-        "leader_change": 10.01
+        "name": "专业连锁Ⅱ",
+        "change_pct": 2.14,
+        "code": "BK1270",
+        "up_count": 7,
+        "down_count": 0,
+        "leader": "博士眼镜",
+        "leader_code": "300622",
+        "leader_change": 3.81
       },
       {
         "rank": 20,
-        "name": "冶钢原料",
-        "change_pct": -1.74,
-        "code": "BK1228",
-        "up_count": 1,
-        "down_count": 8,
-        "leader": "鄂尔多斯",
-        "leader_code": "600295",
-        "leader_change": 1.48
+        "name": "饰品",
+        "change_pct": 2.14,
+        "code": "BK0734",
+        "up_count": 16,
+        "down_count": 2,
+        "leader": "深中华A",
+        "leader_code": "000017",
+        "leader_change": 10.05
       }
     ],
     "bottom": [
       {
         "rank": 81,
-        "name": "游戏Ⅱ",
-        "change_pct": -3.88,
-        "code": "BK1046",
-        "up_count": 1,
-        "down_count": 23,
-        "leader": "吉比特",
-        "leader_code": "603444",
-        "leader_change": 0.49
+        "name": "银行Ⅱ",
+        "change_pct": 0.81,
+        "code": "BK0475",
+        "up_count": 34,
+        "down_count": 7,
+        "leader": "宁波银行",
+        "leader_code": "002142",
+        "leader_change": 3.64
       },
       {
         "rank": 82,
-        "name": "工程机械",
-        "change_pct": -3.88,
-        "code": "BK0739",
-        "up_count": 2,
-        "down_count": 32,
-        "leader": "徐工机械",
-        "leader_code": "000425",
-        "leader_change": 0.25
+        "name": "化学原料",
+        "change_pct": 0.79,
+        "code": "BK1019",
+        "up_count": 41,
+        "down_count": 19,
+        "leader": "善水科技",
+        "leader_code": "301190",
+        "leader_change": 8.31
       },
       {
         "rank": 83,
-        "name": "专业服务",
-        "change_pct": -3.98,
-        "code": "BK1043",
-        "up_count": 2,
-        "down_count": 31,
-        "leader": "中纺标",
-        "leader_code": "920122",
-        "leader_change": 2.54
+        "name": "调味发酵品Ⅱ",
+        "change_pct": 0.72,
+        "code": "BK1278",
+        "up_count": 12,
+        "down_count": 3,
+        "leader": "日辰股份",
+        "leader_code": "603755",
+        "leader_change": 3.32
       },
       {
         "rank": 84,
-        "name": "风电设备",
-        "change_pct": -4.1,
-        "code": "BK1032",
-        "up_count": 2,
-        "down_count": 29,
-        "leader": "飞沃科技",
-        "leader_code": "301232",
-        "leader_change": 1.68
+        "name": "特钢Ⅱ",
+        "change_pct": 0.72,
+        "code": "BK1227",
+        "up_count": 7,
+        "down_count": 4,
+        "leader": "金洲管道",
+        "leader_code": "002443",
+        "leader_change": 3.84
       },
       {
         "rank": 85,
-        "name": "照明设备Ⅱ",
-        "change_pct": -4.25,
-        "code": "BK1245",
-        "up_count": 1,
-        "down_count": 14,
-        "leader": "格利尔",
-        "leader_code": "920641",
-        "leader_change": 2.28
+        "name": "电网设备",
+        "change_pct": 0.7,
+        "code": "BK0457",
+        "up_count": 95,
+        "down_count": 47,
+        "leader": "风范股份",
+        "leader_code": "601700",
+        "leader_change": 9.97
       },
       {
         "rank": 86,
-        "name": "电池",
-        "change_pct": -4.27,
-        "code": "BK1033",
-        "up_count": 4,
-        "down_count": 102,
-        "leader": "尚太科技",
-        "leader_code": "001301",
-        "leader_change": 10.01
+        "name": "冶钢原料",
+        "change_pct": 0.69,
+        "code": "BK1228",
+        "up_count": 8,
+        "down_count": 1,
+        "leader": "广东明珠",
+        "leader_code": "600382",
+        "leader_change": 1.79
       },
       {
         "rank": 87,
-        "name": "广告营销",
-        "change_pct": -4.32,
-        "code": "BK1220",
-        "up_count": 1,
-        "down_count": 29,
-        "leader": "分众传媒",
-        "leader_code": "002027",
-        "leader_change": 0.4
+        "name": "工程机械",
+        "change_pct": 0.67,
+        "code": "BK0739",
+        "up_count": 26,
+        "down_count": 8,
+        "leader": "拓山重工",
+        "leader_code": "001226",
+        "leader_change": 4.19
       },
       {
         "rank": 88,
-        "name": "环保设备Ⅱ",
-        "change_pct": -4.32,
-        "code": "BK1234",
-        "up_count": 2,
-        "down_count": 24,
-        "leader": "雪迪龙",
-        "leader_code": "002658",
-        "leader_change": 1.41
+        "name": "种植业",
+        "change_pct": 0.67,
+        "code": "BK1261",
+        "up_count": 13,
+        "down_count": 7,
+        "leader": "海南橡胶",
+        "leader_code": "601118",
+        "leader_change": 9.93
       },
       {
         "rank": 89,
-        "name": "数字媒体",
-        "change_pct": -4.41,
-        "code": "BK1221",
-        "up_count": 0,
-        "down_count": 15,
-        "leader": "芒果超媒",
-        "leader_code": "300413",
-        "leader_change": -2.05
+        "name": "摩托车及其他",
+        "change_pct": 0.66,
+        "code": "BK1263",
+        "up_count": 12,
+        "down_count": 7,
+        "leader": "信隆健康",
+        "leader_code": "002105",
+        "leader_change": 3.17
       },
       {
         "rank": 90,
-        "name": "农业综合Ⅱ",
-        "change_pct": -4.44,
-        "code": "BK1257",
-        "up_count": 0,
-        "down_count": 3,
-        "leader": "辉隆股份",
-        "leader_code": "002556",
-        "leader_change": -3.02
+        "name": "其他电源设备Ⅱ",
+        "change_pct": 0.63,
+        "code": "BK1034",
+        "up_count": 19,
+        "down_count": 15,
+        "leader": "通合科技",
+        "leader_code": "300491",
+        "leader_change": 4.55
       },
       {
         "rank": 91,
-        "name": "林业Ⅱ",
-        "change_pct": -4.46,
-        "code": "BK1255",
-        "up_count": 0,
-        "down_count": 4,
-        "leader": "福建金森",
-        "leader_code": "002679",
-        "leader_change": -1.95
+        "name": "航运港口",
+        "change_pct": 0.61,
+        "code": "BK0450",
+        "up_count": 24,
+        "down_count": 9,
+        "leader": "凤凰航运",
+        "leader_code": "000520",
+        "leader_change": 9.98
       },
       {
         "rank": 92,
-        "name": "影视院线",
-        "change_pct": -4.48,
-        "code": "BK1222",
-        "up_count": 0,
-        "down_count": 18,
-        "leader": "中国电影",
-        "leader_code": "600977",
-        "leader_change": -2.0
+        "name": "IT服务Ⅱ",
+        "change_pct": 0.6,
+        "code": "BK1238",
+        "up_count": 100,
+        "down_count": 36,
+        "leader": "思创智联",
+        "leader_code": "300078",
+        "leader_change": 5.28
       },
       {
         "rank": 93,
-        "name": "化妆品",
-        "change_pct": -4.49,
-        "code": "BK1252",
-        "up_count": 0,
-        "down_count": 16,
-        "leader": "上海家化",
-        "leader_code": "600315",
-        "leader_change": -0.81
+        "name": "专业服务",
+        "change_pct": 0.59,
+        "code": "BK1043",
+        "up_count": 24,
+        "down_count": 9,
+        "leader": "谱尼测试",
+        "leader_code": "300887",
+        "leader_change": 5.51
       },
       {
         "rank": 94,
-        "name": "装修装饰Ⅱ",
-        "change_pct": -4.5,
-        "code": "BK0725",
-        "up_count": 1,
-        "down_count": 20,
-        "leader": "*ST利达",
-        "leader_code": "603828",
-        "leader_change": 4.38
+        "name": "汽车零部件",
+        "change_pct": 0.53,
+        "code": "BK0481",
+        "up_count": 185,
+        "down_count": 85,
+        "leader": "大明电子",
+        "leader_code": "603376",
+        "leader_change": 9.99
       },
       {
         "rank": 95,
-        "name": "专业工程",
-        "change_pct": -4.51,
-        "code": "BK1248",
-        "up_count": 2,
-        "down_count": 37,
-        "leader": "精工钢构",
-        "leader_code": "600496",
-        "leader_change": 2.48
+        "name": "光伏设备",
+        "change_pct": 0.43,
+        "code": "BK1031",
+        "up_count": 43,
+        "down_count": 23,
+        "leader": "宇邦新材",
+        "leader_code": "301266",
+        "leader_change": 8.22
       },
       {
         "rank": 96,
-        "name": "专用设备",
-        "change_pct": -4.57,
-        "code": "BK0910",
-        "up_count": 11,
-        "down_count": 193,
-        "leader": "速达股份",
-        "leader_code": "001277",
-        "leader_change": 10.01
+        "name": "电力",
+        "change_pct": 0.4,
+        "code": "BK0428",
+        "up_count": 72,
+        "down_count": 36,
+        "leader": "金房能源",
+        "leader_code": "001210",
+        "leader_change": 10.02
       },
       {
         "rank": 97,
-        "name": "电网设备",
-        "change_pct": -4.64,
-        "code": "BK0457",
-        "up_count": 6,
-        "down_count": 137,
-        "leader": "日丰股份",
-        "leader_code": "002953",
-        "leader_change": 10.04
+        "name": "证券Ⅱ",
+        "change_pct": 0.4,
+        "code": "BK0473",
+        "up_count": 37,
+        "down_count": 8,
+        "leader": "中泰证券",
+        "leader_code": "600918",
+        "leader_change": 2.38
       },
       {
         "rank": 98,
-        "name": "能源金属",
-        "change_pct": -4.66,
-        "code": "BK1015",
-        "up_count": 0,
-        "down_count": 11,
-        "leader": "赣锋锂业",
-        "leader_code": "002460",
-        "leader_change": -3.49
+        "name": "半导体",
+        "change_pct": 0.39,
+        "code": "BK1036",
+        "up_count": 100,
+        "down_count": 84,
+        "leader": "思瑞浦",
+        "leader_code": "688536",
+        "leader_change": 15.31
       },
       {
         "rank": 99,
-        "name": "软件开发",
-        "change_pct": -4.71,
-        "code": "BK0737",
-        "up_count": 5,
-        "down_count": 129,
-        "leader": "麒麟信安",
-        "leader_code": "688152",
-        "leader_change": 8.43
+        "name": "工业金属",
+        "change_pct": 0.38,
+        "code": "BK1287",
+        "up_count": 35,
+        "down_count": 21,
+        "leader": "电工合金",
+        "leader_code": "300697",
+        "leader_change": 8.13
       },
       {
         "rank": 100,
-        "name": "家电零部件Ⅱ",
-        "change_pct": -4.83,
-        "code": "BK1242",
-        "up_count": 0,
-        "down_count": 35,
-        "leader": "海立Ｂ股",
-        "leader_code": "900910",
-        "leader_change": -0.47
+        "name": "电机Ⅱ",
+        "change_pct": 0.36,
+        "code": "BK1030",
+        "up_count": 17,
+        "down_count": 9,
+        "leader": "中电电机",
+        "leader_code": "603988",
+        "leader_change": 10.02
       }
     ],
     "total": 100
   },
-  "query_time": "2026-08-19T14:35:10.932325"
+  "query_time": "2026-08-20T14:37:00.563609"
 }
