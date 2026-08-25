@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-08-24",
+  "trade_date": "2026-08-25",
   "stock_count": 60,
-  "total_net_buy_wan": 89795.7,
-  "top_theme": "中报增长",
-  "top_theme_count": 4,
-  "top_industry": "贵金属",
-  "top_industry_pct": 4.41,
-  "html_path": "市场情绪日报_20260824.html",
-  "html_filename": "市场情绪日报_20260824.html"
+  "total_net_buy_wan": 244785.7,
+  "top_theme": "液冷服务器",
+  "top_theme_count": 3,
+  "top_industry": "其他家电Ⅱ",
+  "top_industry_pct": 4.56,
+  "html_path": "市场情绪日报_20260825.html",
+  "html_filename": "市场情绪日报_20260825.html"
 }
