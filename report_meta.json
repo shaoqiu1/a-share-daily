@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-08-26",
+  "trade_date": "2026-08-27",
   "stock_count": 58,
-  "total_net_buy_wan": 91136.2,
-  "top_theme": "半年报增长",
-  "top_theme_count": 5,
-  "top_industry": "证券Ⅱ",
-  "top_industry_pct": 3.01,
-  "html_path": "市场情绪日报_20260826.html",
-  "html_filename": "市场情绪日报_20260826.html"
+  "total_net_buy_wan": 352906.4,
+  "top_theme": "业绩增长",
+  "top_theme_count": 9,
+  "top_industry": "种植业",
+  "top_industry_pct": 5.53,
+  "html_path": "市场情绪日报_20260827.html",
+  "html_filename": "市场情绪日报_20260827.html"
 }
