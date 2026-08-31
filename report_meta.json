@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-08-28",
-  "stock_count": 51,
-  "total_net_buy_wan": 130689.0,
+  "trade_date": "2026-08-31",
+  "stock_count": 70,
+  "total_net_buy_wan": 64347.4,
   "top_theme": "半年报增长",
-  "top_theme_count": 11,
-  "top_industry": "林业Ⅱ",
-  "top_industry_pct": 3.96,
-  "html_path": "市场情绪日报_20260828.html",
-  "html_filename": "市场情绪日报_20260828.html"
+  "top_theme_count": 8,
+  "top_industry": "数字媒体",
+  "top_industry_pct": 6.78,
+  "html_path": "市场情绪日报_20260831.html",
+  "html_filename": "市场情绪日报_20260831.html"
 }
