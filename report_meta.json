@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-09-02",
-  "stock_count": 71,
-  "total_net_buy_wan": -34785.5,
-  "top_theme": "业绩增长",
-  "top_theme_count": 4,
-  "top_industry": "地面兵装Ⅱ",
-  "top_industry_pct": 5.9,
-  "html_path": "市场情绪日报_20260902.html",
-  "html_filename": "市场情绪日报_20260902.html"
+  "trade_date": "2026-09-03",
+  "stock_count": 53,
+  "total_net_buy_wan": 190192.7,
+  "top_theme": "人形机器人",
+  "top_theme_count": 6,
+  "top_industry": "旅游零售Ⅱ",
+  "top_industry_pct": 5.99,
+  "html_path": "市场情绪日报_20260903.html",
+  "html_filename": "市场情绪日报_20260903.html"
 }
