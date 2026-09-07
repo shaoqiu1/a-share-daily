@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-09-04",
-  "stock_count": 55,
-  "total_net_buy_wan": 248224.6,
-  "top_theme": "海峡两岸",
-  "top_theme_count": 5,
-  "top_industry": "饲料",
-  "top_industry_pct": 5.98,
-  "html_path": "市场情绪日报_20260904.html",
-  "html_filename": "市场情绪日报_20260904.html"
+  "trade_date": "2026-09-07",
+  "stock_count": 66,
+  "total_net_buy_wan": 701239.9,
+  "top_theme": "人形机器人",
+  "top_theme_count": 8,
+  "top_industry": "元件",
+  "top_industry_pct": 6.72,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20260907.html",
+  "html_filename": "市场情绪日报_20260907.html"
 }
