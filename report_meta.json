@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-09-09",
-  "stock_count": 60,
-  "total_net_buy_wan": 56217.9,
+  "trade_date": "2026-09-10",
+  "stock_count": 53,
+  "total_net_buy_wan": 59810.1,
   "top_theme": "业绩增长",
-  "top_theme_count": 8,
-  "top_industry": "航海装备Ⅱ",
-  "top_industry_pct": 4.67,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20260909.html",
-  "html_filename": "市场情绪日报_20260909.html"
+  "top_theme_count": 7,
+  "top_industry": "玻璃玻纤",
+  "top_industry_pct": 2.53,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20260910.html",
+  "html_filename": "市场情绪日报_20260910.html"
 }
