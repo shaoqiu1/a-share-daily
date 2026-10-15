@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-10-14",
-  "stock_count": 68,
-  "total_net_buy_wan": -8730.8,
-  "top_theme": "数字教育",
-  "top_theme_count": 2,
-  "top_industry": "油气开采Ⅱ",
-  "top_industry_pct": 2.97,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261014.html",
-  "html_filename": "市场情绪日报_20261014.html"
+  "trade_date": "2026-10-15",
+  "stock_count": 60,
+  "total_net_buy_wan": 68909.4,
+  "top_theme": "业绩预增",
+  "top_theme_count": 5,
+  "top_industry": "白酒Ⅱ",
+  "top_industry_pct": 1.72,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261015.html",
+  "html_filename": "市场情绪日报_20261015.html"
 }
