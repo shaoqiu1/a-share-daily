@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-10-22",
-  "stock_count": 66,
-  "total_net_buy_wan": 70127.0,
+  "trade_date": "2026-10-23",
+  "stock_count": 81,
+  "total_net_buy_wan": 263952.3,
   "top_theme": "人形机器人",
-  "top_theme_count": 7,
-  "top_industry": "电机Ⅱ",
-  "top_industry_pct": 3.58,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261022.html",
-  "html_filename": "市场情绪日报_20261022.html"
+  "top_theme_count": 14,
+  "top_industry": "电池",
+  "top_industry_pct": 5.98,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261023.html",
+  "html_filename": "市场情绪日报_20261023.html"
 }
