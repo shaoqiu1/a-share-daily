@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A股市场情绪日报 · 2026-11-11</title>
+<style>
+:root {
+  --bg: #0b0f19;
+  --panel: #111827;
+  --panel-2: #162033;
+  --border: #1f2937;
+  --text: #e5e7eb;
+  --text-dim: #9ca3af;
+  --up: #ef4444;
+  --down: #22c55e;
+  --neutral: #94a3b8;
+  --accent: #f59e0b;
+  --bar: #3b82f6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 13px; line-height: 1.45;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 18px 16px 40px; }
+header { border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 18px; }
+header h1 { margin: 0; font-size: 22px; letter-spacing: 0.5px; }
+header .subtitle { color: var(--text-dim); margin-top: 6px; font-size: 12px; }
+.overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px; }
+.card .label { color: var(--text-dim); font-size: 11px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+.card .value { font-size: 22px; font-weight: 700; }
+.card .note { color: var(--text-dim); font-size: 11px; margin-top: 4px; }
+.up { color: var(--up); }
+.down { color: var(--down); }
+.neutral { color: var(--neutral); }
+.section { margin-top: 22px; }
+.section-title { font-size: 15px; font-weight: 700; margin-bottom: 10px; padding-left: 10px; border-left: 3px solid var(--accent); }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.svg-chart { width: 100%; height: auto; display: block; }
+.theme-bar { fill: var(--bar); }
+.theme-label { fill: var(--text); }
+.theme-count { fill: var(--text-dim); }
+.ind-up { fill: var(--up); opacity: 0.85; }
+.ind-down { fill: var(--down); opacity: 0.85; }
+.ind-name { fill: var(--text); }
+.ind-pct { font-weight: 600; }
+.ind-leader { fill: var(--text-dim); }
+.netbuy-bar { fill: var(--bar); }
+.dt-name { fill: var(--text); }
+.dt-amount { fill: var(--text-dim); }
+.dt-change { font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+th, td { padding: 8px 6px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th { color: var(--text-dim); font-weight: 600; text-align: right; background: var(--panel-2); position: sticky; top: 0; }
+tbody tr:hover { background: rgba(255,255,255,0.03); }
+td:first-child, th:first-child { text-align: left; padding-left: 10px; }
+.code { color: var(--text-dim); font-size: 11px; margin-left: 4px; }
+.reason { color: var(--text-dim); font-size: 11px; text-align: left; white-space: normal; max-width: 280px; line-height: 1.35; }
+.scroll { max-height: 520px; overflow-y: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); }
+.footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 11px; line-height: 1.6; }
+.footer strong { color: var(--text); }
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+  .container { padding: 12px 10px 28px; }
+  header h1 { font-size: 18px; }
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .overview { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .card { padding: 10px; }
+  .card .value { font-size: 18px; }
+  .section-title { font-size: 14px; }
+  table { font-size: 11px; min-width: 560px; }
+  th, td { padding: 6px 4px; }
+  .scroll { overflow-x: auto; max-height: none; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>A股市场情绪日报 · <span class="up">2026-11-11</span></h1>
+    <div class="subtitle">龙虎榜 + 题材热点 + 行业轮动 | 数据抓取时间 2026-11-11T22:00:49</div>
+  </header>
+
+  <div class="overview">
+    <div class="card">
+      <div class="label">龙虎榜上榜家数</div>
+      <div class="value">75<span style="font-size:13px;color:var(--text-dim)"> 家</span></div>
+      <div class="note">原始记录 85 条，去重后 75 家</div>
+    </div>
+    <div class="card">
+      <div class="label">龙虎榜净买入合计</div>
+      <div class="value up">¥30.37亿</div>
+      <div class="note">机构/游资上榜席位净额汇总</div>
+    </div>
+    <div class="card">
+      <div class="label">最热题材</div>
+      <div class="value">三季报增长</div>
+      <div class="note">同花顺强势股中出现 13 只</div>
+    </div>
+    <div class="card">
+      <div class="label">领涨行业</div>
+      <div class="value up">元件 +4.90%</div>
+      <div class="note">东财行业板块日涨幅第1</div>
+    </div>
+    <div class="card">
+      <div class="label">涨停/跌停（龙虎榜内）</div>
+      <div class="value"><span class="up">40</span> / <span class="down">3</span></div>
+      <div class="note">涨跌幅≥9.9% 统计</div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <div class="section-title">题材热度 TOP12</div>
+      <div class="card">
+        <svg viewBox="0 0 520 376" class="svg-chart"><text x="10" y="38" class="theme-label" font-size="12">储能</text><rect x="90" y="24" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="38" class="theme-count" font-size="12">3只</text><text x="10" y="66" class="theme-label" font-size="12">“东方系”</text><rect x="90" y="52" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="66" class="theme-count" font-size="12">3只</text><text x="10" y="94" class="theme-label" font-size="12">股份回购</text><rect x="90" y="80" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="94" class="theme-count" font-size="12">3只</text><text x="10" y="122" class="theme-label" font-size="12">PCB</text><rect x="90" y="108" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="122" class="theme-count" font-size="12">3只</text><text x="10" y="150" class="theme-label" font-size="12">光通信</text><rect x="90" y="136" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="150" class="theme-count" font-size="12">3只</text><text x="10" y="178" class="theme-label" font-size="12">商业航天</text><rect x="90" y="164" width="83.1" height="18" rx="3" class="theme-bar"/><text x="181.0769230769231" y="178" class="theme-count" font-size="12">3只</text><text x="10" y="206" class="theme-label" font-size="12">机器人</text><rect x="90" y="192" width="110.8" height="18" rx="3" class="theme-bar"/><text x="208.76923076923077" y="206" class="theme-count" font-size="12">4只</text><text x="10" y="234" class="theme-label" font-size="12">回购</text><rect x="90" y="220" width="110.8" height="18" rx="3" class="theme-bar"/><text x="208.76923076923077" y="234" class="theme-count" font-size="12">4只</text><text x="10" y="262" class="theme-label" font-size="12">光模块</text><rect x="90" y="248" width="110.8" height="18" rx="3" class="theme-bar"/><text x="208.76923076923077" y="262" class="theme-count" font-size="12">4只</text><text x="10" y="290" class="theme-label" font-size="12">CPO</text><rect x="90" y="276" width="138.5" height="18" rx="3" class="theme-bar"/><text x="236.46153846153848" y="290" class="theme-count" font-size="12">5只</text><text x="10" y="318" class="theme-label" font-size="12">人形机器人</text><rect x="90" y="304" width="276.9" height="18" rx="3" class="theme-bar"/><text x="374.92307692307696" y="318" class="theme-count" font-size="12">10只</text><text x="10" y="346" class="theme-label" font-size="12">三季报增长</text><rect x="90" y="332" width="360.0" height="18" rx="3" class="theme-bar"/><text x="458.0" y="346" class="theme-count" font-size="12">13只</text></svg>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">领涨行业 TOP10</div>
+      <div class="card">
+        <svg viewBox="0 0 560 340" class="svg-chart"><text x="10" y="39" class="ind-name" font-size="12">1. 元件</text><rect x="110" y="25" width="280.0" height="18" rx="3" class="ind-up"/><text x="398.0" y="39" class="ind-pct up" font-size="12">+4.90%</text><text x="420" y="39" class="ind-leader" font-size="11">龙头 东山精密 +10.00%</text><text x="10" y="69" class="ind-name" font-size="12">2. 通信设备</text><rect x="110" y="55" width="275.4" height="18" rx="3" class="ind-up"/><text x="393.42857142857144" y="69" class="ind-pct up" font-size="12">+4.82%</text><text x="420" y="69" class="ind-leader" font-size="11">龙头 日海智能 +9.96%</text><text x="10" y="99" class="ind-name" font-size="12">3. 玻璃玻纤</text><rect x="110" y="85" width="188.6" height="18" rx="3" class="ind-up"/><text x="306.57142857142856" y="99" class="ind-pct up" font-size="12">+3.30%</text><text x="420" y="99" class="ind-leader" font-size="11">龙头 凯盛新能 +9.97%</text><text x="10" y="129" class="ind-name" font-size="12">4. 游戏Ⅱ</text><rect x="110" y="115" width="185.7" height="18" rx="3" class="ind-up"/><text x="303.71428571428567" y="129" class="ind-pct up" font-size="12">+3.25%</text><text x="420" y="129" class="ind-leader" font-size="11">龙头 凯撒文化 +10.06%</text><text x="10" y="159" class="ind-name" font-size="12">5. 半导体</text><rect x="110" y="145" width="177.1" height="18" rx="3" class="ind-up"/><text x="295.1428571428571" y="159" class="ind-pct up" font-size="12">+3.10%</text><text x="420" y="159" class="ind-leader" font-size="11">龙头 利扬芯片 +20.01%</text><text x="10" y="189" class="ind-name" font-size="12">6. 自动化设备</text><rect x="110" y="175" width="174.9" height="18" rx="3" class="ind-up"/><text x="292.85714285714283" y="189" class="ind-pct up" font-size="12">+3.06%</text><text x="420" y="189" class="ind-leader" font-size="11">龙头 科瑞技术 +10.02%</text><text x="10" y="219" class="ind-name" font-size="12">7. 电子化学品Ⅱ</text><rect x="110" y="205" width="154.9" height="18" rx="3" class="ind-up"/><text x="272.8571428571429" y="219" class="ind-pct up" font-size="12">+2.71%</text><text x="420" y="219" class="ind-leader" font-size="11">龙头 中石科技 +10.06%</text><text x="10" y="249" class="ind-name" font-size="12">8. 燃气Ⅱ</text><rect x="110" y="235" width="147.4" height="18" rx="3" class="ind-up"/><text x="265.42857142857144" y="249" class="ind-pct up" font-size="12">+2.58%</text><text x="420" y="249" class="ind-leader" font-size="11">龙头 胜通能源 +10.01%</text><text x="10" y="279" class="ind-name" font-size="12">9. 塑料</text><rect x="110" y="265" width="134.3" height="18" rx="3" class="ind-up"/><text x="252.28571428571428" y="279" class="ind-pct up" font-size="12">+2.35%</text><text x="420" y="279" class="ind-leader" font-size="11">龙头 天洋新材 +10.03%</text><text x="10" y="309" class="ind-name" font-size="12">10. 其他电子Ⅱ</text><rect x="110" y="295" width="132.0" height="18" rx="3" class="ind-up"/><text x="250.0" y="309" class="ind-pct up" font-size="12">+2.31%</text><text x="420" y="309" class="ind-leader" font-size="11">龙头 富信科技 +7.46%</text></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <div class="section-title">领跌行业 TOP10</div>
+      <div class="card">
+        <svg viewBox="0 0 560 340" class="svg-chart"><text x="10" y="39" class="ind-name" font-size="12">100. 动物保健Ⅱ</text><rect x="110" y="25" width="280.0" height="18" rx="3" class="ind-down"/><text x="398.0" y="39" class="ind-pct down" font-size="12">-0.21%</text><text x="420" y="39" class="ind-leader" font-size="11">龙头 生物股份 +0.83%</text><text x="10" y="69" class="ind-name" font-size="12">99. 铁路公路</text><rect x="110" y="55" width="240.0" height="18" rx="3" class="ind-down"/><text x="358.0" y="69" class="ind-pct down" font-size="12">-0.18%</text><text x="420" y="69" class="ind-leader" font-size="11">龙头 大众交通 +5.11%</text><text x="10" y="99" class="ind-name" font-size="12">98. 电力</text><rect x="110" y="85" width="120.0" height="18" rx="3" class="ind-down"/><text x="238.0" y="99" class="ind-pct down" font-size="12">-0.09%</text><text x="420" y="99" class="ind-leader" font-size="11">龙头 顺发恒能 +10.18%</text><text x="10" y="129" class="ind-name" font-size="12">97. 特钢Ⅱ</text><rect x="110" y="115" width="120.0" height="18" rx="3" class="ind-down"/><text x="238.0" y="129" class="ind-pct down" font-size="12">-0.09%</text><text x="420" y="129" class="ind-leader" font-size="11">龙头 盛德鑫泰 +1.13%</text><text x="10" y="159" class="ind-name" font-size="12">96. 小家电</text><rect x="110" y="145" width="106.7" height="18" rx="3" class="ind-down"/><text x="224.66666666666669" y="159" class="ind-pct down" font-size="12">-0.08%</text><text x="420" y="159" class="ind-leader" font-size="11">龙头 欧圣电气 +5.62%</text><text x="10" y="189" class="ind-name" font-size="12">95. 医药商业</text><rect x="110" y="175" width="13.3" height="18" rx="3" class="ind-down"/><text x="131.33333333333331" y="189" class="ind-pct down" font-size="12">-0.01%</text><text x="420" y="189" class="ind-leader" font-size="11">龙头 建发致新 +4.41%</text><text x="10" y="219" class="ind-name" font-size="12">94. 生物制品</text><rect x="110" y="205" width="40.0" height="18" rx="3" class="ind-up"/><text x="158.0" y="219" class="ind-pct up" font-size="12">+0.03%</text><text x="420" y="219" class="ind-leader" font-size="11">龙头 百普赛斯 +4.19%</text><text x="10" y="249" class="ind-name" font-size="12">93. 专业连锁Ⅱ</text><rect x="110" y="235" width="106.7" height="18" rx="3" class="ind-up"/><text x="224.66666666666669" y="249" class="ind-pct up" font-size="12">+0.08%</text><text x="420" y="249" class="ind-leader" font-size="11">龙头 爱婴室 +2.40%</text><text x="10" y="279" class="ind-name" font-size="12">92. 农产品加工</text><rect x="110" y="265" width="133.3" height="18" rx="3" class="ind-up"/><text x="251.33333333333334" y="279" class="ind-pct up" font-size="12">+0.10%</text><text x="420" y="279" class="ind-leader" font-size="11">龙头 *ST中基 +2.59%</text><text x="10" y="309" class="ind-name" font-size="12">91. 航运港口</text><rect x="110" y="295" width="146.7" height="18" rx="3" class="ind-up"/><text x="264.6666666666667" y="309" class="ind-pct up" font-size="12">+0.11%</text><text x="420" y="309" class="ind-leader" font-size="11">龙头 秦港股份 +2.98%</text></svg>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">龙虎榜净买入 TOP15</div>
+      <div class="card">
+        <svg viewBox="0 0 620 510" class="svg-chart"><text x="5" y="30" class="dt-name" font-size="12">文投控股 (600715)</text><rect x="130" y="15" width="54.4" height="18" rx="3" class="netbuy-bar"/><text x="192.36567779293912" y="30" class="dt-amount" font-size="12">¥1.09亿</text><text x="510" y="30" class="dt-change up" font-size="12">+10.18%</text><text x="5" y="62" class="dt-name" font-size="12">飞亚达 (000026)</text><rect x="130" y="47" width="58.3" height="18" rx="3" class="netbuy-bar"/><text x="196.26707209796845" y="62" class="dt-amount" font-size="12">¥1.17亿</text><text x="510" y="62" class="dt-change up" font-size="12">+10.02%</text><text x="5" y="94" class="dt-name" font-size="12">锋龙股份 (002931)</text><rect x="130" y="79" width="59.5" height="18" rx="3" class="netbuy-bar"/><text x="197.49588912054193" y="94" class="dt-amount" font-size="12">¥1.19亿</text><text x="510" y="94" class="dt-change up" font-size="12">+10.01%</text><text x="5" y="126" class="dt-name" font-size="12">深南电路 (002916)</text><rect x="130" y="111" width="70.0" height="18" rx="3" class="netbuy-bar"/><text x="208.03808191282303" y="126" class="dt-amount" font-size="12">¥1.40亿</text><text x="510" y="126" class="dt-change up" font-size="12">+10.00%</text><text x="5" y="158" class="dt-name" font-size="12">风语筑 (603466)</text><rect x="130" y="143" width="89.5" height="18" rx="3" class="netbuy-bar"/><text x="227.4767304135815" y="158" class="dt-amount" font-size="12">¥1.79亿</text><text x="510" y="158" class="dt-change up" font-size="12">+9.98%</text><text x="5" y="190" class="dt-name" font-size="12">德尔股份 (300473)</text><rect x="130" y="175" width="94.4" height="18" rx="3" class="netbuy-bar"/><text x="232.39598816953307" y="190" class="dt-amount" font-size="12">¥1.89亿</text><text x="510" y="190" class="dt-change up" font-size="12">+20.00%</text><text x="5" y="222" class="dt-name" font-size="12">襄阳轴承 (000678)</text><rect x="130" y="207" width="103.2" height="18" rx="3" class="netbuy-bar"/><text x="241.2340950177665" y="222" class="dt-amount" font-size="12">¥2.07亿</text><text x="510" y="222" class="dt-change up" font-size="12">+10.02%</text><text x="5" y="254" class="dt-name" font-size="12">阿尔特 (300825)</text><rect x="130" y="239" width="113.2" height="18" rx="3" class="netbuy-bar"/><text x="251.20327207995956" y="254" class="dt-amount" font-size="12">¥2.27亿</text><text x="510" y="254" class="dt-change up" font-size="12">+6.88%</text><text x="5" y="286" class="dt-name" font-size="12">光迅科技 (002281)</text><rect x="130" y="271" width="122.5" height="18" rx="3" class="netbuy-bar"/><text x="260.4597951140449" y="286" class="dt-amount" font-size="12">¥2.46亿</text><text x="510" y="286" class="dt-change up" font-size="12">+10.00%</text><text x="5" y="318" class="dt-name" font-size="12">燧原科技 (688801)</text><rect x="130" y="303" width="127.9" height="18" rx="3" class="netbuy-bar"/><text x="265.90519002860646" y="318" class="dt-amount" font-size="12">¥2.56亿</text><text x="510" y="318" class="dt-change up" font-size="12">+11.27%</text><text x="5" y="350" class="dt-name" font-size="12">蘅东光 (920045)</text><rect x="130" y="335" width="146.8" height="18" rx="3" class="netbuy-bar"/><text x="284.77182021569126" y="350" class="dt-amount" font-size="12">¥2.94亿</text><text x="510" y="350" class="dt-change up" font-size="12">+26.45%</text><text x="5" y="382" class="dt-name" font-size="12">世运电路 (603920)</text><rect x="130" y="367" width="186.1" height="18" rx="3" class="netbuy-bar"/><text x="324.13236546999786" y="382" class="dt-amount" font-size="12">¥3.73亿</text><text x="510" y="382" class="dt-change up" font-size="12">+8.39%</text><text x="5" y="414" class="dt-name" font-size="12">沪电股份 (002463)</text><rect x="130" y="399" width="192.7" height="18" rx="3" class="netbuy-bar"/><text x="330.7008512672037" y="414" class="dt-amount" font-size="12">¥3.86亿</text><text x="510" y="414" class="dt-change up" font-size="12">+10.00%</text><text x="5" y="446" class="dt-name" font-size="12">果麦文化 (301052)</text><rect x="130" y="431" width="203.1" height="18" rx="3" class="netbuy-bar"/><text x="341.0689948951674" y="446" class="dt-amount" font-size="12">¥4.07亿</text><text x="510" y="446" class="dt-change up" font-size="12">+20.00%</text><text x="5" y="478" class="dt-name" font-size="12">东山精密 (002384)</text><rect x="130" y="463" width="360.0" height="18" rx="3" class="netbuy-bar"/><text x="498.0" y="478" class="dt-amount" font-size="12">¥7.22亿</text><text x="510" y="478" class="dt-change up" font-size="12">+10.00%</text></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">龙虎榜全榜单（按净买入降序）</div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>排名</th>
+            <th>股票</th>
+            <th>代码</th>
+            <th>收盘价</th>
+            <th>涨跌幅</th>
+            <th>净买入额</th>
+            <th>换手率</th>
+            <th style="text-align:left">上榜原因</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><strong>东山精密</strong></td>
+            <td class="code">002384</td>
+            <td>92.06</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥7.22亿</td>
+            <td>10.32%</td>
+            <td class="reason">日涨幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>果麦文化</strong></td>
+            <td class="code">301052</td>
+            <td>48.96</td>
+            <td class="up">+20.00%</td>
+            <td class="up">¥4.07亿</td>
+            <td>52.45%</td>
+            <td class="reason">日换手率达到30%的前5只证券；日涨幅达到15%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>沪电股份</strong></td>
+            <td class="code">002463</td>
+            <td>89.43</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥3.86亿</td>
+            <td>4.16%</td>
+            <td class="reason">日涨幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><strong>世运电路</strong></td>
+            <td class="code">603920</td>
+            <td>39.42</td>
+            <td class="up">+8.39%</td>
+            <td class="up">¥3.73亿</td>
+            <td>6.81%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><strong>蘅东光</strong></td>
+            <td class="code">920045</td>
+            <td>414.50</td>
+            <td class="up">+26.45%</td>
+            <td class="up">¥2.94亿</td>
+            <td>11.77%</td>
+            <td class="reason">当日价格振幅达到30%的前5只股票；当日收盘价涨幅达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><strong>燧原科技</strong></td>
+            <td class="code">688801</td>
+            <td>494.00</td>
+            <td class="up">+11.27%</td>
+            <td class="up">¥2.56亿</td>
+            <td>15.32%</td>
+            <td class="reason">有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><strong>光迅科技</strong></td>
+            <td class="code">002281</td>
+            <td>103.93</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥2.46亿</td>
+            <td>5.06%</td>
+            <td class="reason">日涨幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><strong>阿尔特</strong></td>
+            <td class="code">300825</td>
+            <td>14.92</td>
+            <td class="up">+6.88%</td>
+            <td class="up">¥2.27亿</td>
+            <td>22.56%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到30%的证券</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><strong>襄阳轴承</strong></td>
+            <td class="code">000678</td>
+            <td>21.19</td>
+            <td class="up">+10.02%</td>
+            <td class="up">¥2.07亿</td>
+            <td>37.39%</td>
+            <td class="reason">日振幅值达到15%的前5只证券；日换手率达到20%的前5只证券；日涨幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><strong>德尔股份</strong></td>
+            <td class="code">300473</td>
+            <td>58.79</td>
+            <td class="up">+20.00%</td>
+            <td class="up">¥1.89亿</td>
+            <td>18.33%</td>
+            <td class="reason">日涨幅达到15%的前5只证券；连续三个交易日内，涨幅偏离值累计达到30%的证券</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><strong>风语筑</strong></td>
+            <td class="code">603466</td>
+            <td>16.86</td>
+            <td class="up">+9.98%</td>
+            <td class="up">¥1.79亿</td>
+            <td>20.97%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><strong>深南电路</strong></td>
+            <td class="code">002916</td>
+            <td>229.02</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥1.40亿</td>
+            <td>1.94%</td>
+            <td class="reason">日涨幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><strong>锋龙股份</strong></td>
+            <td class="code">002931</td>
+            <td>53.08</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥1.19亿</td>
+            <td>6.18%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><strong>飞亚达</strong></td>
+            <td class="code">000026</td>
+            <td>23.16</td>
+            <td class="up">+10.02%</td>
+            <td class="up">¥1.17亿</td>
+            <td>8.43%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><strong>文投控股</strong></td>
+            <td class="code">600715</td>
+            <td>3.14</td>
+            <td class="up">+10.18%</td>
+            <td class="up">¥1.09亿</td>
+            <td>24.43%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><strong>同飞股份</strong></td>
+            <td class="code">300990</td>
+            <td>87.38</td>
+            <td class="up">+19.99%</td>
+            <td class="up">¥1.05亿</td>
+            <td>13.43%</td>
+            <td class="reason">日涨幅达到15%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><strong>天洋新材</strong></td>
+            <td class="code">603330</td>
+            <td>10.53</td>
+            <td class="up">+10.03%</td>
+            <td class="up">¥1.03亿</td>
+            <td>23.39%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td><strong>致尚科技</strong></td>
+            <td class="code">301486</td>
+            <td>160.57</td>
+            <td class="up">+20.00%</td>
+            <td class="up">¥9855万</td>
+            <td>17.07%</td>
+            <td class="reason">日涨幅达到15%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><strong>岱美股份</strong></td>
+            <td class="code">603730</td>
+            <td>11.19</td>
+            <td class="up">+10.03%</td>
+            <td class="up">¥8986万</td>
+            <td>2.33%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td><strong>东方通信</strong></td>
+            <td class="code">600776</td>
+            <td>13.65</td>
+            <td class="up">+9.99%</td>
+            <td class="up">¥8210万</td>
+            <td>8.75%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><strong>青山纸业</strong></td>
+            <td class="code">600103</td>
+            <td>3.28</td>
+            <td class="up">+10.07%</td>
+            <td class="up">¥7592万</td>
+            <td>4.60%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td><strong>中坚科技</strong></td>
+            <td class="code">002779</td>
+            <td>100.50</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥6737万</td>
+            <td>6.91%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><strong>日出东方</strong></td>
+            <td class="code">603366</td>
+            <td>11.97</td>
+            <td class="up">+10.02%</td>
+            <td class="up">¥6314万</td>
+            <td>1.15%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td><strong>大晟文化</strong></td>
+            <td class="code">600892</td>
+            <td>5.81</td>
+            <td class="up">+3.75%</td>
+            <td class="up">¥6264万</td>
+            <td>42.45%</td>
+            <td class="reason">有价格涨跌幅限制的日价格振幅达到15%的前五只证券；有价格涨跌幅限制的日换手率达到20%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><strong>新炬网络</strong></td>
+            <td class="code">605398</td>
+            <td>27.18</td>
+            <td class="up">+5.55%</td>
+            <td class="up">¥5385万</td>
+            <td>12.03%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td><strong>电魂网络</strong></td>
+            <td class="code">603258</td>
+            <td>18.32</td>
+            <td class="up">+10.03%</td>
+            <td class="up">¥4854万</td>
+            <td>11.74%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><strong>惠发食品</strong></td>
+            <td class="code">603536</td>
+            <td>11.85</td>
+            <td class="up">+10.03%</td>
+            <td class="up">¥4216万</td>
+            <td>3.93%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td><strong>胜通能源</strong></td>
+            <td class="code">001331</td>
+            <td>35.28</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥3792万</td>
+            <td>3.73%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><strong>奥士康</strong></td>
+            <td class="code">002913</td>
+            <td>65.26</td>
+            <td class="up">+9.99%</td>
+            <td class="up">¥3445万</td>
+            <td>3.08%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td><strong>苏州科达</strong></td>
+            <td class="code">603660</td>
+            <td>10.50</td>
+            <td class="up">+8.25%</td>
+            <td class="up">¥2492万</td>
+            <td>8.60%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><strong>瑞迪智驱</strong></td>
+            <td class="code">301596</td>
+            <td>58.40</td>
+            <td class="up">+19.99%</td>
+            <td class="up">¥2113万</td>
+            <td>27.74%</td>
+            <td class="reason">日涨幅达到15%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td><strong>利扬芯片</strong></td>
+            <td class="code">688135</td>
+            <td>35.02</td>
+            <td class="up">+20.01%</td>
+            <td class="up">¥1685万</td>
+            <td>12.90%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td><strong>华脉科技</strong></td>
+            <td class="code">603042</td>
+            <td>13.38</td>
+            <td class="up">+10.03%</td>
+            <td class="up">¥1546万</td>
+            <td>5.71%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td><strong>拓山重工</strong></td>
+            <td class="code">001226</td>
+            <td>44.75</td>
+            <td class="up">+7.03%</td>
+            <td class="up">¥1010万</td>
+            <td>10.30%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td><strong>森峰激光</strong></td>
+            <td class="code">920085</td>
+            <td>32.43</td>
+            <td class="up">+1.34%</td>
+            <td class="up">¥943万</td>
+            <td>28.98%</td>
+            <td class="reason">当日换手率达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td><strong>奥士转债</strong></td>
+            <td class="code">127117</td>
+            <td>190.41</td>
+            <td class="up">+20.00%</td>
+            <td class="up">¥467万</td>
+            <td>0.00%</td>
+            <td class="reason">日涨幅达到15%的前5只可转债</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td><strong>安达股份</strong></td>
+            <td class="code">920202</td>
+            <td>12.89</td>
+            <td class="up">+0.86%</td>
+            <td class="up">¥252万</td>
+            <td>31.77%</td>
+            <td class="reason">当日换手率达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td><strong>新坐标</strong></td>
+            <td class="code">603040</td>
+            <td>43.97</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥232万</td>
+            <td>5.14%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td><strong>福新转债</strong></td>
+            <td class="code">111012</td>
+            <td>948.11</td>
+            <td class="up">+5.22%</td>
+            <td class="up">¥0万</td>
+            <td>0.00%</td>
+            <td class="reason">连续30个交易日内收盘价格涨幅偏离值累计达到200%的可转债</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td><strong>萃华退</strong></td>
+            <td class="code">002731</td>
+            <td>0.23</td>
+            <td class="up">+4.55%</td>
+            <td class="up">¥-46万</td>
+            <td>4.23%</td>
+            <td class="reason">退市整理期</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td><strong>皇冠新材</strong></td>
+            <td class="code">001381</td>
+            <td>41.42</td>
+            <td class="down">-3.76%</td>
+            <td class="down">¥-64万</td>
+            <td>36.98%</td>
+            <td class="reason">日换手率达到20%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td><strong>东方环宇</strong></td>
+            <td class="code">603706</td>
+            <td>24.43</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥-86万</td>
+            <td>8.90%</td>
+            <td class="reason">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td><strong>天普股份</strong></td>
+            <td class="code">605255</td>
+            <td>61.01</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥-155万</td>
+            <td>1.72%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td><strong>*ST亿晶</strong></td>
+            <td class="code">600537</td>
+            <td>1.87</td>
+            <td class="down">-7.88%</td>
+            <td class="down">¥-157万</td>
+            <td>8.45%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td><strong>文峰光电</strong></td>
+            <td class="code">920296</td>
+            <td>27.79</td>
+            <td class="up">+9.67%</td>
+            <td class="up">¥-283万</td>
+            <td>43.12%</td>
+            <td class="reason">当日换手率达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td><strong>大东方</strong></td>
+            <td class="code">600327</td>
+            <td>6.53</td>
+            <td class="up">+9.93%</td>
+            <td class="up">¥-557万</td>
+            <td>11.70%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td><strong>欧通转债</strong></td>
+            <td class="code">123241</td>
+            <td>500.95</td>
+            <td class="up">+16.50%</td>
+            <td class="up">¥-630万</td>
+            <td>0.00%</td>
+            <td class="reason">日涨幅达到15%的前5只可转债</td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td><strong>龙江交通</strong></td>
+            <td class="code">601188</td>
+            <td>4.29</td>
+            <td class="down">-6.94%</td>
+            <td class="down">¥-1256万</td>
+            <td>25.82%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td><strong>ST龙大</strong></td>
+            <td class="code">002726</td>
+            <td>1.67</td>
+            <td class="down">-10.22%</td>
+            <td class="down">¥-1414万</td>
+            <td>7.08%</td>
+            <td class="reason">日跌幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td><strong>艾能聚</strong></td>
+            <td class="code">920770</td>
+            <td>11.90</td>
+            <td class="down">-5.71%</td>
+            <td class="down">¥-1594万</td>
+            <td>20.24%</td>
+            <td class="reason">当日换手率达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td><strong>永臻股份</strong></td>
+            <td class="code">603381</td>
+            <td>21.40</td>
+            <td class="down">-2.24%</td>
+            <td class="down">¥-1786万</td>
+            <td>33.37%</td>
+            <td class="reason">有价格涨跌幅限制的日换手率达到20%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td><strong>ST三木</strong></td>
+            <td class="code">000632</td>
+            <td>3.64</td>
+            <td class="down">-9.90%</td>
+            <td class="down">¥-1816万</td>
+            <td>7.98%</td>
+            <td class="reason">日跌幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td><strong>百洋股份</strong></td>
+            <td class="code">002696</td>
+            <td>10.62</td>
+            <td class="down">-9.00%</td>
+            <td class="down">¥-1975万</td>
+            <td>27.61%</td>
+            <td class="reason">日跌幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td><strong>龙版传媒</strong></td>
+            <td class="code">605577</td>
+            <td>17.36</td>
+            <td class="up">+0.46%</td>
+            <td class="up">¥-2410万</td>
+            <td>13.34%</td>
+            <td class="reason">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td><strong>肯特股份</strong></td>
+            <td class="code">301591</td>
+            <td>46.92</td>
+            <td class="up">+8.61%</td>
+            <td class="up">¥-2442万</td>
+            <td>44.19%</td>
+            <td class="reason">日换手率达到30%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>56</td>
+            <td><strong>贝特利</strong></td>
+            <td class="code">301697</td>
+            <td>35.33</td>
+            <td class="down">-5.79%</td>
+            <td class="down">¥-2488万</td>
+            <td>52.09%</td>
+            <td class="reason">日换手率达到30%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>57</td>
+            <td><strong>凤凰航运</strong></td>
+            <td class="code">000520</td>
+            <td>2.81</td>
+            <td class="down">-5.07%</td>
+            <td class="down">¥-3749万</td>
+            <td>6.50%</td>
+            <td class="reason">连续三个交易日内，跌幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>58</td>
+            <td><strong>德龙汇能</strong></td>
+            <td class="code">000593</td>
+            <td>20.55</td>
+            <td class="up">+6.42%</td>
+            <td class="up">¥-4519万</td>
+            <td>7.38%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>59</td>
+            <td><strong>源杰科技</strong></td>
+            <td class="code">688498</td>
+            <td>774.85</td>
+            <td class="up">+20.00%</td>
+            <td class="up">¥-4991万</td>
+            <td>8.24%</td>
+            <td class="reason">有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td><strong>宇特光电</strong></td>
+            <td class="code">920157</td>
+            <td>57.69</td>
+            <td class="up">+29.99%</td>
+            <td class="up">¥-5327万</td>
+            <td>56.37%</td>
+            <td class="reason">当日价格振幅达到30%的前5只股票；当日换手率达到20%的前5只股票；当日收盘价涨幅达到20%的前5只股票</td>
+          </tr>
+          <tr>
+            <td>61</td>
+            <td><strong>智微智能</strong></td>
+            <td class="code">001339</td>
+            <td>69.73</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥-5586万</td>
+            <td>17.83%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>62</td>
+            <td><strong>博硕科技</strong></td>
+            <td class="code">300951</td>
+            <td>58.79</td>
+            <td class="up">+5.93%</td>
+            <td class="up">¥-5590万</td>
+            <td>6.85%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到30%的证券</td>
+          </tr>
+          <tr>
+            <td>63</td>
+            <td><strong>桂林三金</strong></td>
+            <td class="code">002275</td>
+            <td>15.35</td>
+            <td class="down">-9.17%</td>
+            <td class="down">¥-6143万</td>
+            <td>10.18%</td>
+            <td class="reason">日跌幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>64</td>
+            <td><strong>上海九百</strong></td>
+            <td class="code">600838</td>
+            <td>12.18</td>
+            <td class="up">+2.18%</td>
+            <td class="up">¥-6947万</td>
+            <td>29.22%</td>
+            <td class="reason">有价格涨跌幅限制的日换手率达到20%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>65</td>
+            <td><strong>浙文影业</strong></td>
+            <td class="code">601599</td>
+            <td>5.55</td>
+            <td class="down">-0.89%</td>
+            <td class="down">¥-9200万</td>
+            <td>41.55%</td>
+            <td class="reason">有价格涨跌幅限制的日价格振幅达到15%的前五只证券；有价格涨跌幅限制的日换手率达到20%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>66</td>
+            <td><strong>金健米业</strong></td>
+            <td class="code">600127</td>
+            <td>10.60</td>
+            <td class="down">-3.20%</td>
+            <td class="down">¥-9491万</td>
+            <td>31.79%</td>
+            <td class="reason">有价格涨跌幅限制的日换手率达到20%的前五只证券</td>
+          </tr>
+          <tr>
+            <td>67</td>
+            <td><strong>通则康威</strong></td>
+            <td class="code">301718</td>
+            <td>56.27</td>
+            <td class="up">+1.57%</td>
+            <td class="up">¥-1.00亿</td>
+            <td>44.83%</td>
+            <td class="reason">日换手率达到30%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>68</td>
+            <td><strong>上海电影</strong></td>
+            <td class="code">601595</td>
+            <td>46.83</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥-1.07亿</td>
+            <td>6.97%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>69</td>
+            <td><strong>凡拓数创</strong></td>
+            <td class="code">301313</td>
+            <td>79.97</td>
+            <td class="up">+4.55%</td>
+            <td class="up">¥-1.09亿</td>
+            <td>35.45%</td>
+            <td class="reason">日换手率达到30%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>70</td>
+            <td><strong>福莱新材</strong></td>
+            <td class="code">605488</td>
+            <td>63.03</td>
+            <td class="up">+10.00%</td>
+            <td class="up">¥-1.18亿</td>
+            <td>11.57%</td>
+            <td class="reason">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>71</td>
+            <td><strong>东方海洋</strong></td>
+            <td class="code">002086</td>
+            <td>4.69</td>
+            <td class="up">+1.52%</td>
+            <td class="up">¥-1.24亿</td>
+            <td>37.27%</td>
+            <td class="reason">日换手率达到20%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>72</td>
+            <td><strong>青岛食品</strong></td>
+            <td class="code">001219</td>
+            <td>22.61</td>
+            <td class="down">-9.99%</td>
+            <td class="down">¥-1.30亿</td>
+            <td>27.69%</td>
+            <td class="reason">日跌幅偏离值达到7%的前5只证券</td>
+          </tr>
+          <tr>
+            <td>73</td>
+            <td><strong>光洋股份</strong></td>
+            <td class="code">002708</td>
+            <td>26.59</td>
+            <td class="up">+10.01%</td>
+            <td class="up">¥-1.33亿</td>
+            <td>18.02%</td>
+            <td class="reason">连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>74</td>
+            <td><strong>冰山冷热</strong></td>
+            <td class="code">000530</td>
+            <td>11.28</td>
+            <td class="up">+7.12%</td>
+            <td class="up">¥-1.54亿</td>
+            <td>43.23%</td>
+            <td class="reason">日换手率达到20%的前5只证券；连续三个交易日内，涨幅偏离值累计达到20%的证券</td>
+          </tr>
+          <tr>
+            <td>75</td>
+            <td><strong>慈文传媒</strong></td>
+            <td class="code">002343</td>
+            <td>9.70</td>
+            <td class="up">+3.97%</td>
+            <td class="up">¥-2.27亿</td>
+            <td>45.23%</td>
+            <td class="reason">日换手率达到20%的前5只证券</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong>数据来源：</strong><br>
+    · 龙虎榜数据：东方财富 Choice 数据 / 东方财富数据中心龙虎榜 API（reportName=RPT_DAILYBILLBOARD_DETAILSNEW），统计交易日 2026-11-11 全部上榜记录；<br>
+    · 题材归因：同花顺「强势股」接口（10jqka）reason 标签，按「+」拆分后做词频统计；<br>
+    · 行业板块：东方财富 push2delay 行业板块行情接口（fs=m:90+s:4），含行业涨跌幅、上涨/下跌家数、领涨股；<br>
+    · 金额单位：人民币，龙虎榜按「万元」原始口径展示，≥1亿自动转换为「亿元」；涨跌幅按 A 股惯例：红涨绿跌。<br>
+    <div style="margin-top:6px">本报告仅供复盘参考，不构成投资建议。</div>
+  </div>
+</div>
+</body>
+</html>

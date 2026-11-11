@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-11-09",
-  "stock_count": 60,
-  "total_net_buy_wan": 127494.4,
-  "top_theme": "商业航天",
-  "top_theme_count": 7,
-  "top_industry": "焦炭Ⅱ",
-  "top_industry_pct": 5.39,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261109.html",
-  "html_filename": "市场情绪日报_20261109.html"
+  "trade_date": "2026-11-11",
+  "stock_count": 75,
+  "total_net_buy_wan": 303736.9,
+  "top_theme": "三季报增长",
+  "top_theme_count": 13,
+  "top_industry": "元件",
+  "top_industry_pct": 4.9,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261111.html",
+  "html_filename": "市场情绪日报_20261111.html"
 }
