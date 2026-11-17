@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-11-16",
-  "stock_count": 61,
-  "total_net_buy_wan": 69814.4,
-  "top_theme": "国企",
-  "top_theme_count": 3,
-  "top_industry": "白色家电",
-  "top_industry_pct": 3.02,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261116.html",
-  "html_filename": "市场情绪日报_20261116.html"
+  "trade_date": "2026-11-17",
+  "stock_count": 75,
+  "total_net_buy_wan": 3793.6,
+  "top_theme": "消费电子",
+  "top_theme_count": 2,
+  "top_industry": "电子化学品Ⅱ",
+  "top_industry_pct": 1.86,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261117.html",
+  "html_filename": "市场情绪日报_20261117.html"
 }
