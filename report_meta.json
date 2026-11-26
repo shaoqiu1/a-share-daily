@@ -1,11 +1,11 @@
 {
-  "trade_date": "2026-11-25",
-  "stock_count": 64,
-  "total_net_buy_wan": 8042.8,
-  "top_theme": "流感",
+  "trade_date": "2026-11-26",
+  "stock_count": 73,
+  "total_net_buy_wan": 113852.7,
+  "top_theme": "商业航天",
   "top_theme_count": 6,
   "top_industry": "渔业",
-  "top_industry_pct": 2.98,
-  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261125.html",
-  "html_filename": "市场情绪日报_20261125.html"
+  "top_industry_pct": 5.26,
+  "html_path": "/Users/zhiqiu/WorkBuddy/2026-08-12-11-38-00/dist/市场情绪日报_20261126.html",
+  "html_filename": "市场情绪日报_20261126.html"
 }
